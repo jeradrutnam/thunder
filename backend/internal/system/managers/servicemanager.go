@@ -16,31 +16,34 @@
  * under the License.
  */
 
+// Package managers provides functionality for managing and registering system services.
 package managers
 
 import (
-	"github.com/asgardeo/thunder/internal/system/services"
 	"net/http"
+
+	"github.com/asgardeo/thunder/internal/system/services"
 )
 
+// ServiceManagerInterface defines the interface for managing services.
 type ServiceManagerInterface interface {
 	RegisterServices() error
 }
 
+// ServiceManager implements the ServiceManagerInterface and is responsible for registering services.
 type ServiceManager struct {
 	mux *http.ServeMux
 }
 
 // NewServiceManager creates a new instance of ServiceManager.
 func NewServiceManager(mux *http.ServeMux) ServiceManagerInterface {
-
 	return &ServiceManager{
 		mux: mux,
 	}
 }
 
+// RegisterServices registers all the services with the provided HTTP multiplexer.
 func (sm *ServiceManager) RegisterServices() error {
-
 	// Register the token service.
 	services.NewTokenService(sm.mux)
 	// Register the Application service.

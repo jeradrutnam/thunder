@@ -16,13 +16,15 @@
  * under the License.
  */
 
+// Package token provides handler for managing OAuth 2.0 token requests.
 package token
 
 import (
 	"encoding/json"
+	"net/http"
+
 	"github.com/asgardeo/thunder/internal/system/server"
 	"github.com/asgardeo/thunder/internal/system/utils"
-	"net/http"
 
 	appprovider "github.com/asgardeo/thunder/internal/application/provider"
 	"github.com/asgardeo/thunder/internal/oauth/oauth2/constants"
@@ -33,78 +35,78 @@ import (
 	"github.com/asgardeo/thunder/internal/system/log"
 )
 
+// TokenHandler handles OAuth 2.0 token requests.
 type TokenHandler struct{}
 
 // HandleTokenRequest handles the token request for OAuth 2.0.
 // It validates the client credentials and delegates to the appropriate grant handler.
-func (th *TokenHandler) HandleTokenRequest(respWriter http.ResponseWriter, request *http.Request) {
-
-	logger := log.GetLogger().With(log.String(log.LOGGER_KEY_COMPONENT_NAME, "TokenHandler"))
+func (th *TokenHandler) HandleTokenRequest(w http.ResponseWriter, r *http.Request) {
+	logger := log.GetLogger().With(log.String(log.LoggerKeyComponentName, "TokenHandler"))
 
 	// Parse the form data from the request body.
-	if err := request.ParseForm(); err != nil {
-		utils.WriteJSONError(respWriter, constants.ERROR_INVALID_REQUEST,
+	if err := r.ParseForm(); err != nil {
+		utils.WriteJSONError(w, constants.ErrorInvalidRequest,
 			"Failed to parse request body", http.StatusBadRequest, nil)
 		return
 	}
 
 	// Validate the grant_type.
-	grantType := request.FormValue(constants.GRANT_TYPE)
+	grantType := r.FormValue(constants.GrantType)
 	if grantType == "" {
-		utils.WriteJSONError(respWriter, constants.ERROR_INVALID_REQUEST,
+		utils.WriteJSONError(w, constants.ErrorInvalidRequest,
 			"Missing grant_type parameter", http.StatusBadRequest, nil)
 		return
 	}
 
 	var grantHandler granthandlers.GrantHandler
 	switch grantType {
-	case constants.GRANT_TYPE_CLIENT_CREDENTIALS:
+	case constants.GrantTypeClientCredentials:
 		grantHandler = &granthandlers.ClientCredentialsGrantHandler{}
-	case constants.GRANT_TYPE_AUTHORIZATION_CODE:
+	case constants.GrantTypeAuthorizationCode:
 		grantHandler = &granthandlers.AuthorizationCodeGrantHandler{}
 	default:
-		utils.WriteJSONError(respWriter, constants.ERROR_UNSUPPORTED_GRANT_TYPE,
+		utils.WriteJSONError(w, constants.ErrorUnsupportedGrantType,
 			"Unsupported grant type", http.StatusBadRequest, nil)
 		return
 	}
 
 	// Extract client credentials from the request.
-	clientId := ""
+	clientID := ""
 	clientSecret := ""
-	if request.Header.Get("Authorization") != "" {
+	if r.Header.Get("Authorization") != "" {
 		var err error
-		clientId, clientSecret, err = utils.ExtractBasicAuthCredentials(request)
+		clientID, clientSecret, err = utils.ExtractBasicAuthCredentials(r)
 		if err != nil {
 			if err.Error() == "invalid authorization header" {
 				responseHeaders := []map[string]string{
 					{"WWW-Authenticate": "Basic"},
 				}
-				utils.WriteJSONError(respWriter, constants.ERROR_INVALID_CLIENT,
+				utils.WriteJSONError(w, constants.ErrorInvalidClient,
 					"Invalid client credentials", http.StatusUnauthorized, responseHeaders)
 				return
 			}
-			utils.WriteJSONError(respWriter, constants.ERROR_INVALID_CLIENT,
+			utils.WriteJSONError(w, constants.ErrorInvalidClient,
 				"Invalid client credentials", http.StatusUnauthorized, nil)
 			return
 		}
 	}
 
 	// Check for client credentials in the request body.
-	clientIdFromBody := request.FormValue(constants.CLIENT_ID)
-	clientSecretFromBody := request.FormValue(constants.CLIENT_SECRET)
+	clientIDFromBody := r.FormValue(constants.ClientID)
+	clientSecretFromBody := r.FormValue(constants.ClientSecret)
 
-	if clientIdFromBody != "" && clientSecretFromBody != "" {
-		if clientId != "" && clientSecret != "" {
-			utils.WriteJSONError(respWriter, constants.ERROR_INVALID_REQUEST,
+	if clientIDFromBody != "" && clientSecretFromBody != "" {
+		if clientID != "" && clientSecret != "" {
+			utils.WriteJSONError(w, constants.ErrorInvalidRequest,
 				"Authorization information is provided in both header and body", http.StatusBadRequest, nil)
 			return
 		}
 
-		clientId = clientIdFromBody
+		clientID = clientIDFromBody
 		clientSecret = clientSecretFromBody
 	} else {
-		if clientId == "" {
-			clientId = clientIdFromBody
+		if clientID == "" {
+			clientID = clientIDFromBody
 		}
 		if clientSecret == "" {
 			clientSecret = clientSecretFromBody
@@ -114,21 +116,21 @@ func (th *TokenHandler) HandleTokenRequest(respWriter http.ResponseWriter, reque
 	// Construct the token request.
 	tokenRequest := &model.TokenRequest{
 		GrantType:    grantType,
-		ClientId:     clientId,
+		ClientID:     clientID,
 		ClientSecret: clientSecret,
-		Scope:        request.FormValue("scope"),
-		Username:     request.FormValue("username"),
-		Password:     request.FormValue("password"),
-		RefreshToken: request.FormValue("refresh_token"),
-		CodeVerifier: request.FormValue("code_verifier"),
-		Code:         request.FormValue("code"),
-		RedirectUri:  request.FormValue("redirect_uri"),
+		Scope:        r.FormValue("scope"),
+		Username:     r.FormValue("username"),
+		Password:     r.FormValue("password"),
+		RefreshToken: r.FormValue("refresh_token"),
+		CodeVerifier: r.FormValue("code_verifier"),
+		Code:         r.FormValue("code"),
+		RedirectURI:  r.FormValue("redirect_uri"),
 	}
 
 	// Validate the token request.
 	tokenError := grantHandler.ValidateGrant(tokenRequest)
 	if tokenError != nil && tokenError.Error != "" {
-		utils.WriteJSONError(respWriter, tokenError.Error, tokenError.ErrorDescription, http.StatusBadRequest, nil)
+		utils.WriteJSONError(w, tokenError.Error, tokenError.ErrorDescription, http.StatusBadRequest, nil)
 		return
 	}
 
@@ -136,16 +138,16 @@ func (th *TokenHandler) HandleTokenRequest(respWriter http.ResponseWriter, reque
 	appProvider := appprovider.NewApplicationProvider()
 	appService := appProvider.GetApplicationService()
 
-	oauthApp, err := appService.GetOAuthApplication(clientId)
+	oauthApp, err := appService.GetOAuthApplication(clientID)
 	if err != nil || oauthApp == nil {
-		utils.WriteJSONError(respWriter, constants.ERROR_INVALID_CLIENT,
+		utils.WriteJSONError(w, constants.ErrorInvalidClient,
 			"Invalid client credentials", http.StatusUnauthorized, nil)
 		return
 	}
 
 	// Validate grant type against the application.
 	if !oauthApp.IsAllowedGrantType(tokenRequest.GrantType) {
-		utils.WriteJSONError(respWriter, constants.ERROR_UNAUTHORIZED_CLIENT,
+		utils.WriteJSONError(w, constants.ErrorUnauthorizedClient,
 			"The authenticated client is not authorized to use this grant type", http.StatusUnauthorized, nil)
 		return
 	}
@@ -154,9 +156,9 @@ func (th *TokenHandler) HandleTokenRequest(respWriter http.ResponseWriter, reque
 	scopeValidatorProvider := scopeprovider.NewScopeValidatorProvider()
 	scopeValidator := scopeValidatorProvider.GetScopeValidator()
 
-	validScopes, scopeError := scopeValidator.ValidateScopes(tokenRequest.Scope, oauthApp.ClientId)
+	validScopes, scopeError := scopeValidator.ValidateScopes(tokenRequest.Scope, oauthApp.ClientID)
 	if scopeError != nil {
-		utils.WriteJSONError(respWriter, scopeError.Error, scopeError.ErrorDescription, http.StatusBadRequest, nil)
+		utils.WriteJSONError(w, scopeError.Error, scopeError.ErrorDescription, http.StatusBadRequest, nil)
 		return
 	}
 	tokenRequest.Scope = validScopes
@@ -164,41 +166,42 @@ func (th *TokenHandler) HandleTokenRequest(respWriter http.ResponseWriter, reque
 	// Delegate to the grant handler.
 	tokenResponse, tokenError := grantHandler.HandleGrant(tokenRequest, oauthApp)
 	if tokenError != nil && tokenError.Error != "" {
-		utils.WriteJSONError(respWriter, tokenError.Error, tokenError.ErrorDescription, http.StatusBadRequest, nil)
+		utils.WriteJSONError(w, tokenError.Error, tokenError.ErrorDescription, http.StatusBadRequest, nil)
 		return
 	}
 
 	// Log successful token generation.
-	logger.Info("Token generated successfully", log.String("client_id", clientId))
+	logger.Info("Token generated successfully", log.String("client_id", clientID))
 
 	// Set the response headers.
-	respWriter.Header().Set("Content-Type", "application/json")
-	respWriter.Header().Set("Cache-Control", "no-store")
-	respWriter.Header().Set("Pragma", "no-cache")
+	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Cache-Control", "no-store")
+	w.Header().Set("Pragma", "no-cache")
 
 	// Retrieve allowed origins from the server configuration.
 	allowedOrigins, err := server.GetAllowedOrigins()
 	if err != nil {
 		logger.Error("Failed to get allowed origins", log.Error(err))
-		http.Error(respWriter, "Something went wrong", http.StatusInternalServerError)
+		http.Error(w, "Something went wrong", http.StatusInternalServerError)
+		return
 	}
 
 	// Set the CORS headers if allowed origins are configured.
-	allowedOrigin := oauthutils.GetAllowedOrigin(allowedOrigins, tokenRequest.RedirectUri)
+	allowedOrigin := oauthutils.GetAllowedOrigin(allowedOrigins, tokenRequest.RedirectURI)
 	if allowedOrigin != "" {
-		respWriter.Header().Set("Access-Control-Allow-Origin", allowedOrigin)
-		respWriter.Header().Set("Access-Control-Allow-Credentials", "true")
-		respWriter.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
-		respWriter.Header().Set("Access-Control-Allow-Methods", "POST, GET, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Origin", allowedOrigin)
+		w.Header().Set("Access-Control-Allow-Credentials", "true")
+		w.Header().Set("Access-Control-Allow-Headers", "Authorization, Content-Type")
+		w.Header().Set("Access-Control-Allow-Methods", "POST, GET, OPTIONS")
 	}
 
 	// Write the token response.
-	respWriter.WriteHeader(http.StatusOK)
-	if err := json.NewEncoder(respWriter).Encode(tokenResponse); err != nil {
+	w.WriteHeader(http.StatusOK)
+	if err := json.NewEncoder(w).Encode(tokenResponse); err != nil {
 		logger.Error("Failed to write token response", log.Error(err))
-		http.Error(respWriter, "Failed to write token response", http.StatusInternalServerError)
+		http.Error(w, "Failed to write token response", http.StatusInternalServerError)
 		return
 	}
 	// Log the token response.
-	logger.Info("Token response sent", log.String("client_id", clientId))
+	logger.Info("Token response sent", log.String("client_id", clientID))
 }

@@ -16,6 +16,7 @@
  * under the License.
  */
 
+// Package utils provides utility functions for HTTP operations.
 package utils
 
 import (
@@ -28,8 +29,8 @@ import (
 	"github.com/asgardeo/thunder/internal/system/log"
 )
 
+// ExtractBasicAuthCredentials extracts the basic authentication credentials from the request header.
 func ExtractBasicAuthCredentials(r *http.Request) (string, string, error) {
-
 	authHeader := r.Header.Get("Authorization")
 	if !strings.HasPrefix(authHeader, "Basic ") {
 		return "", "", errors.New("invalid authorization header")
@@ -51,13 +52,12 @@ func ExtractBasicAuthCredentials(r *http.Request) (string, string, error) {
 }
 
 // WriteJSONError writes a JSON error response with the given details.
-func WriteJSONError(w http.ResponseWriter, errorCode, errorDescription string, statusCode int, responseHeaders []map[string]string) {
-
+func WriteJSONError(w http.ResponseWriter, code, desc string, statusCode int, respHeaders []map[string]string) {
 	logger := log.GetLogger()
-	logger.Error("Error in HTTP response", log.String("error", errorCode), log.String("description", errorDescription))
+	logger.Error("Error in HTTP response", log.String("error", code), log.String("description", desc))
 
 	// Set the response headers.
-	for _, header := range responseHeaders {
+	for _, header := range respHeaders {
 		for key, value := range header {
 			w.Header().Set(key, value)
 		}
@@ -66,8 +66,8 @@ func WriteJSONError(w http.ResponseWriter, errorCode, errorDescription string, s
 
 	w.WriteHeader(statusCode)
 	err := json.NewEncoder(w).Encode(map[string]string{
-		"error":             errorCode,
-		"error_description": errorDescription,
+		"error":             code,
+		"error_description": desc,
 	})
 	if err != nil {
 		logger.Error("Failed to write JSON error response", log.Error(err))

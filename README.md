@@ -113,11 +113,71 @@ make test
 
 ---
 
-## Running Development Environment
+## 🗄️ Running with PostgreSQL Database
 
-```bash
-make run
+### 🔧 Step 1: Start PostgreSQL
+
+- Create a Docker container for PostgreSQL with `thunderdb` database.
+
+  ```bash
+  docker run -d -p 5432:5432 --name postgres \
+    -e POSTGRES_USER=asgthunder \
+    -e POSTGRES_PASSWORD=asgthunder \
+    -e POSTGRES_DB=thunderdb \
+    postgres
+  ```
+
+- Create the `runtimedb` in the same PostgreSQL container.
+
+  ```bash
+  docker exec -it postgres psql -U asgthunder -d thunderdb -c "CREATE DATABASE runtimedb;"
+  ```
+
+### 🗂 Step 2: Initialize the Database
+
+- Populate the `thunderdb` database with the required tables and data.
+
+  ```bash
+  docker exec -i postgres psql -U asgthunder -d thunderdb < backend/dbscripts/thunderdb/postgress.sql
+  ```
+
+- Populate the `runtimedb` database with the required tables and data.
+
+  ```bash
+  docker exec -i postgres psql -U asgthunder -d thunderdb < backend/dbscripts/runtimedb/postgress.sql
+  ```
+
+### 🛠 Step 3: Configure Thunder to Use PostgreSQL
+
+1. Open the `backend/cmd/server/repository/conf/deployment.yaml` file.
+2. Update the `database` section to point to the PostgreSQL database:
+```yaml
+database:
+  identity:
+    type: "postgres"
+    hostname: "localhost"
+    port: 5432
+    name: "thunderdb"
+    username: "asgthunder"
+    password: "asgthunder"
+    sslmode: "disable"
+  runtime:
+    type: "postgres"
+    hostname: "localhost"
+    port: 5432
+    name: "runtimedb"
+    username: "asgthunder"
+    password: "asgthunder"
+    sslmode: "disable"
 ```
+
+### ▶️ Step 4: Run the Product
+
+   ```bash
+   make run
+   ```
+
+The product will now use the PostgreSQL database for its operations.
 
 ## License
 
