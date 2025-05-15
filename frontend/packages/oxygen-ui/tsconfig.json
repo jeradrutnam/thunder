@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "./src",
+    "outDir": "./modules",
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "composite": true,
+    "incremental": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES2017",
+    "jsx": "react-jsx",
+    "strict": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["modules", "node_modules"]
+}

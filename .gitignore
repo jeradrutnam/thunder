@@ -11,8 +11,8 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Dependency directories
+node_modules
 
 # Go workspace file
 go.work
@@ -20,22 +20,49 @@ go.work.sum
 
 # OS generated files
 .DS_Store
+Thumbs.db
 
 # Server certificates.
 *.pem
 *.key
 *.crt
 
-# Project build directory
-target/
-
 # IDE settings, swap files, and temporary artifacts
 .idea
-.vscode
 *.swp
 *.swo
 *~
 *.tgz
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Frontend build artifacts
-backend/cmd/server/dist/
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# NX artifacts
+.nx/cache
+.nx/workspace-data
+
+# Project compiled output folders
+target
+dist
+tmp
+out-tsc

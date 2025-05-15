@@ -1,6 +1,9 @@
-# ⚡ WSO2 Thunder — Identity Management
+# WSO2 Asgardeo - Project Thunder ⚡
+### The Lighting Fast Identity Management Suite
 
-**Thunder** is a modern, identity management service by WSO2. It empowers you to design tailored login, registration, and recovery flows using a flexible identity flow designer.
+<a alt="Asgardeo logo" href="https://asgardeo.io" target="_blank" rel="noreferrer" style="background: #fff; display: inline-block"><img src="asgardeo-logo.png" width="400"></a>
+
+**Asgardeo - Project Thunder** is a modern, identity management service by WSO2. It empowers you to design tailored login, registration, and recovery flows using a flexible identity flow designer.
 
 Thunder secures users, applications, services, and AI agents by managing their identities and offering a complete suite of supporting capabilities.
 
@@ -28,6 +31,7 @@ Designed for extensibility, scalability, and seamless containerized deployment, 
 - Go 1.23+
 - cURL
 - Node.js 14+
+- PNPM 10+
 - React 19+
 
 ---
@@ -114,3 +118,10 @@ make test
 ```bash
 make run
 ```
+
+## License
+
+Licenses this source under the Apache License, Version 2.0 ([LICENSE](LICENSE)), You may not use this file except in compliance with the License.
+
+---------------------------------------------------------------------------
+(c) Copyright 2025 WSO2 LLC.
