@@ -1,5 +1,3 @@
-'use client';
-
 /*
  * Copyright (c) 2025, WSO2 LLC. (http://www.wso2.com).
  *
@@ -18,15 +16,4 @@
  * under the License.
  */
 
-import { ThemeProvider as MUIThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import theme from '../theme';
-
-export default function ThemeProvider({ children }: { children: React.ReactNode }) {
-  return (
-    <MUIThemeProvider theme={theme}>
-      <CssBaseline />
-      {children}
-    </MUIThemeProvider>
-  );
-}
+export { default as InitColorSchemeScript } from '@mui/material/InitColorSchemeScript';
