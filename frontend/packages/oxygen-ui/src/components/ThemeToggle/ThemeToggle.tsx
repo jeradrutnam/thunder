@@ -18,7 +18,7 @@
  * under the License.
  */
 
-import { useColorScheme } from '@mui/material-next';
+import { useColorScheme } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import CircularProgress from '@mui/material/CircularProgress';
 import { DarkModeRounded, LightModeRounded, Monitor } from '@mui/icons-material';

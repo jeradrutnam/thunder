@@ -18,4 +18,4 @@
  * under the License.
  */
 
-export { useColorScheme } from '@mui/material-next';
+export { useColorScheme } from '@mui/material/styles';
