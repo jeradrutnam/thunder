@@ -97,7 +97,7 @@ jobs:
             OS="${platform%%:*}"
             ARCH="${platform#*:}"
             
-            echo "🔨 Building for $OS/$ARCH..."
+            echo "🔨 Building Thunder backend for $OS/$ARCH..."
             make build_backend OS=$OS ARCH=$ARCH
             
             # Optional: Add a small delay to prevent resource contention
@@ -106,8 +106,32 @@ jobs:
           
           echo "✅ All platforms built successfully!"
 
+          # ============================================================
+
           echo "🏗️ Building Sample applications..."
-          make build_samples
+
+          # Define platform matrix as arrays
+          SAMPLE_PLATFORMS=(
+            "win:x64"
+            "linux:x64"
+            "linux:arm64"
+            "macos:x64"
+            "macos:arm64"
+          )
+
+          # Loop through the platform matrix
+          for platform in "${SAMPLE_PLATFORMS[@]}"; do
+            # Split the platform string into OS and ARCH
+            OS="${platform%%:*}"
+            ARCH="${platform#*:}"
+            
+            echo "🔨 Building Samples for $OS/$ARCH..."
+            make build_samples OS=$OS ARCH=$ARCH
+            
+            # Optional: Add a small delay to prevent resource contention
+            sleep 1
+          done
+
           echo "✅ Sample applications built successfully!"
 
       - name: 📝 Read Updated Version
