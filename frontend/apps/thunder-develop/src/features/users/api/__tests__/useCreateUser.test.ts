@@ -203,16 +203,12 @@ describe('useCreateUser', () => {
       },
     };
 
+    // Create a deferred promise that we can control manually
+    let resolvePromise!: (value: {data: ApiUser}) => void;
     mockHttpRequest.mockImplementationOnce(
       () =>
         new Promise((resolve) => {
-          setTimeout(
-            () =>
-              resolve({
-                data: mockResponse,
-              }),
-            50,
-          );
+          resolvePromise = resolve;
         }),
     );
 
@@ -222,15 +218,13 @@ describe('useCreateUser', () => {
 
     const promise = result.current.createUser(mockRequest);
 
-    // Yield to allow React to process the state update
-    await new Promise<void>((resolve) => {
-      setTimeout(resolve, 0);
-    });
-
-    // Loading should become true
+    // Loading should become true after initiating the request
     await waitFor(() => {
       expect(result.current.loading).toBe(true);
     });
+
+    // Now resolve the promise
+    resolvePromise({data: mockResponse});
 
     await promise;
 
