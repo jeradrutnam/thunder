@@ -792,7 +792,8 @@ func (as *applicationService) validateAllowedUserTypes(allowedUserTypes []string
 	offset := 0
 
 	for {
-		userSchemaList, svcErr := as.userSchemaService.GetUserSchemaList(limit, offset)
+		// TODO: Pass context from the caller
+		userSchemaList, svcErr := as.userSchemaService.GetUserSchemaList(context.TODO(), limit, offset)
 		if svcErr != nil {
 			logger.Error("Failed to retrieve user schema list for validation",
 				log.String("error", svcErr.Error), log.String("code", svcErr.Code))
