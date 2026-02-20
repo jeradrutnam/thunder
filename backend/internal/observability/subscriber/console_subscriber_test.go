@@ -738,6 +738,14 @@ func TestConsoleSubscriber_OnEventConcurrent(t *testing.T) {
 	_ = sub.Initialize()
 	defer func() { _ = sub.Close() }()
 
+	// Read from pipe concurrently to prevent buffer saturation and deadlock
+	var buf bytes.Buffer
+	readerDone := make(chan bool)
+	go func() {
+		_, _ = io.Copy(&buf, r)
+		readerDone <- true
+	}()
+
 	// Test concurrent writes
 	const numGoroutines = 10
 	const eventsPerGoroutine = 5
@@ -763,13 +771,13 @@ func TestConsoleSubscriber_OnEventConcurrent(t *testing.T) {
 		<-done
 	}
 
-	// Restore stdout
+	// Restore stdout and close writer to signal reader
 	_ = w.Close()
 	os.Stdout = oldStdout
 
-	// Read captured output
-	var buf bytes.Buffer
-	_, _ = io.Copy(&buf, r)
+	// Wait for reader to finish
+	<-readerDone
+
 	output := buf.String()
 
 	// Verify we got output (actual count may vary due to concurrency)

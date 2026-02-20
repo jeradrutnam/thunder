@@ -19,6 +19,7 @@
 package subscriber
 
 import (
+	"errors"
 	"os"
 	"path/filepath"
 	"strings"
@@ -27,6 +28,7 @@ import (
 
 	"github.com/asgardeo/thunder/internal/observability/event"
 	"github.com/asgardeo/thunder/internal/system/config"
+	"github.com/asgardeo/thunder/tests/mocks/observability/adaptermock"
 )
 
 func TestNewFileSubscriber(t *testing.T) {
@@ -150,6 +152,62 @@ func TestFileSubscriber_Initialize(t *testing.T) {
 				_ = sub.Close()
 			}
 		})
+	}
+}
+
+func TestFileSubscriber_MultipleInitializations_ClosesExistingAdapterWithError(t *testing.T) {
+	setupTestConfig(t)
+	defer resetTestConfig()
+
+	tmpDir := t.TempDir()
+	filePath := filepath.Join(tmpDir, "test-reinit.log")
+
+	cfg := &config.GetThunderRuntime().Config.Observability.Output.File
+	cfg.Enabled = true
+	cfg.FilePath = filePath
+	cfg.Format = formatJSON
+
+	sub := NewFileSubscriber()
+
+	// First initialization to properly set up the subscriber (logger, adapter, etc.)
+	err := sub.Initialize()
+	if err != nil {
+		t.Fatalf("First Initialize() error = %v", err)
+	}
+
+	firstID := sub.GetID()
+
+	// Close the real adapter to release file handles, then replace with a mock
+	// that returns an error on Close
+	_ = sub.adapter.Close()
+	mockAdapter := adaptermock.NewOutputAdapterInterfaceMock(t)
+	mockAdapter.EXPECT().Close().Return(errors.New("close error")).Once()
+	sub.adapter = mockAdapter
+
+	// Second Initialize - should attempt to close the existing (mock) adapter,
+	// log the close error, and continue creating a new adapter
+	err = sub.Initialize()
+
+	// Initialization should succeed even if closing the old adapter fails
+	if err != nil {
+		t.Errorf("Second Initialize() unexpected error = %v", err)
+	}
+
+	// Verify that a new adapter was created (not the mock anymore)
+	if sub.adapter == mockAdapter {
+		t.Error("Initialize() should create a new adapter, but still has the old mock")
+	}
+
+	// Verify a new ID was generated
+	if sub.GetID() == firstID {
+		t.Error("Re-initialization should generate a new ID")
+	}
+
+	// Mock expectations (Close called once) are verified automatically by mockery
+
+	// Clean up
+	if sub.adapter != nil {
+		_ = sub.Close()
 	}
 }
 
@@ -604,6 +662,8 @@ func TestFileSubscriber_CloseWithNilAdapter(t *testing.T) {
 	sub := NewFileSubscriber()
 	_ = sub.Initialize()
 
+	// Close the adapter first to release file handles and stop background goroutines
+	_ = sub.adapter.Close()
 	// Set adapter to nil to test the nil check path
 	sub.adapter = nil
 
@@ -883,8 +943,9 @@ func TestFileSubscriber_Initialize_InvalidPath(t *testing.T) {
 	setupTestConfig(t)
 	defer resetTestConfig()
 
-	// Use an invalid path that should fail (e.g., path to a directory that doesn't exist and can't be created)
-	invalidPath := "/invalid/nonexistent/path/that/should/fail/test.log"
+	// Use a path with null character that will fail on all operating systems
+	// Both Windows and Unix-like systems reject null character in file paths
+	invalidPath := t.TempDir() + string(filepath.Separator) + "invalid\x00file.log"
 
 	cfg := &config.GetThunderRuntime().Config.Observability.Output.File
 	cfg.Enabled = true
