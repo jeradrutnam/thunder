@@ -422,6 +422,7 @@ const translations = {
     'listing.treeView.loadError': 'Failed to load child organization units',
     'listing.treeView.addChild': 'Add Child OU',
     'listing.treeView.addChildOrganizationUnit': 'Add Child Organization Unit',
+    'listing.treeView.loadMore': 'Load more',
     'listing.columns.name': 'Name',
     'listing.columns.handle': 'Handle',
     'listing.columns.description': 'Description',
