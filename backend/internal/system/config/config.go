@@ -123,10 +123,16 @@ type AuthorizationCodeConfig struct {
 	ValidityPeriod int64 `yaml:"validity_period" json:"validity_period"`
 }
 
+// DCRConfig holds the Dynamic Client Registration configuration.
+type DCRConfig struct {
+	Insecure bool `yaml:"insecure" json:"insecure"`
+}
+
 // OAuthConfig holds the OAuth configuration details.
 type OAuthConfig struct {
 	RefreshToken      RefreshTokenConfig      `yaml:"refresh_token" json:"refresh_token"`
 	AuthorizationCode AuthorizationCodeConfig `yaml:"authorization_code" json:"authorization_code"`
+	DCR               DCRConfig               `yaml:"dcr" json:"dcr"`
 }
 
 // FlowConfig holds the configuration details for the flow service.
