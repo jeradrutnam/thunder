@@ -3288,7 +3288,7 @@ func (suite *ServiceTestSuite) TestValidateAllowedUserTypes_EmptyString() {
 
 	// Mock GetUserSchemaList to return empty list (first call)
 	mockUserSchemaService.EXPECT().
-		GetUserSchemaList(mock.Anything, 0).
+		GetUserSchemaList(mock.Anything, mock.Anything, 0).
 		Return(&userschema.UserSchemaListResponse{
 			TotalResults: 0,
 			Count:        0,
@@ -3321,7 +3321,7 @@ func (suite *ServiceTestSuite) TestValidateAllowedUserTypes_EmptyStringWithValid
 
 	// Mock GetUserSchemaList to return a list with one valid user type
 	mockUserSchemaService.EXPECT().
-		GetUserSchemaList(mock.Anything, 0).
+		GetUserSchemaList(mock.Anything, mock.Anything, 0).
 		Return(&userschema.UserSchemaListResponse{
 			TotalResults: 1,
 			Count:        1,
