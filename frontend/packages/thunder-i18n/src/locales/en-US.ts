@@ -430,7 +430,8 @@ const translations = {
 
     'delete.dialog.title': 'Delete Organization Unit',
     'delete.dialog.message': 'Are you sure you want to delete this organization unit? This action cannot be undone.',
-    'delete.dialog.disclaimer': 'Warning: All associated data, configurations, and user assignments will be permanently removed.',
+    'delete.dialog.disclaimer':
+      'Warning: All associated data, configurations, and user assignments will be permanently removed.',
     'delete.dialog.error': 'Failed to delete organization unit. Please try again.',
 
     /* -------------------- Edit page -------------------- */
@@ -1271,6 +1272,7 @@ const translations = {
     // Execution steps - branching handles
     'core.executions.handles.success': 'onSuccess',
     'core.executions.handles.failure': 'onFailure',
+    'core.executions.handles.incomplete': 'onIncomplete',
 
     // Canvas hints and tips
     'core.canvas.hints.autoLayout': 'Tip: Use auto-layout to organize your flow',
