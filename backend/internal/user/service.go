@@ -406,10 +406,14 @@ func (us *userService) UpdateUser(ctx context.Context, userID string, user *User
 	// Ensure the user object has the correct ID
 	user.ID = userID
 
-	var updatedUser *User
+	credentials, err := us.extractCredentials(user)
+	if err != nil {
+		return nil, logErrorAndReturnServerError(logger, "Failed to extract credentials", err, log.String("id", userID))
+	}
+
 	var capturedSvcErr *serviceerror.ServiceError
 
-	err := us.transactioner.Transact(ctx, func(txCtx context.Context) error {
+	err = us.transactioner.Transact(ctx, func(txCtx context.Context) error {
 		if svcErr := us.validateOrganizationUnitForUserType(
 			txCtx, user.Type, user.OrganizationUnit, logger,
 		); svcErr != nil {
@@ -426,7 +430,19 @@ func (us *userService) UpdateUser(ctx context.Context, userID string, user *User
 		if err != nil {
 			return err
 		}
-		updatedUser = user
+
+		if len(credentials) > 0 {
+			_, existingCredentials, err := us.userStore.GetCredentials(txCtx, userID)
+			if err != nil {
+				return err
+			}
+			mergedCredentials := us.mergeCredentials(existingCredentials, credentials)
+			err = us.userStore.UpdateUserCredentials(txCtx, userID, mergedCredentials)
+			if err != nil {
+				return err
+			}
+		}
+
 		return nil
 	})
 
@@ -443,7 +459,7 @@ func (us *userService) UpdateUser(ctx context.Context, userID string, user *User
 	}
 
 	logger.Debug("Successfully updated user", log.String("id", userID))
-	return updatedUser, nil
+	return user, nil
 }
 
 // UpdateUserAttributes updates only the attributes of a user while preserving immutable fields.
