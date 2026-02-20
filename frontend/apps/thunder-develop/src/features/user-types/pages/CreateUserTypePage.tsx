@@ -16,7 +16,7 @@
  * under the License.
  */
 
-import {useNavigate} from 'react-router';
+import {Link, useNavigate} from 'react-router';
 import {useEffect, useMemo, useState} from 'react';
 import {
   Box,
@@ -34,8 +34,10 @@ import {
   IconButton,
   Alert,
   Snackbar,
+  PageContent,
+  PageTitle,
 } from '@wso2/oxygen-ui';
-import {ArrowLeft, Plus, Save, X} from '@wso2/oxygen-ui-icons-react';
+import {Plus, Save, X} from '@wso2/oxygen-ui-icons-react';
 import {useTranslation} from 'react-i18next';
 import {useLogger} from '@thunder/logger/react';
 import useCreateUserType from '../api/useCreateUserType';
@@ -259,31 +261,13 @@ export default function CreateUserTypePage() {
   };
 
   return (
-    <Box>
-      <Button
-        onClick={() => {
-          handleBack().catch(() => {
-            // Handle navigation error
-          });
-        }}
-        variant="text"
-        sx={{mb: 2}}
-        aria-label="Go back"
-        startIcon={<ArrowLeft size={16} />}
-      >
-        {t('common:actions.back')}
-      </Button>
-
-      <Stack direction="row" alignItems="flex-start" justifyContent="space-between" mb={4} gap={2}>
-        <Box>
-          <Typography variant="h1" gutterBottom>
-            {t('userTypes:addUserType')}
-          </Typography>
-          <Typography variant="subtitle1" color="text.secondary">
-            {t('userTypes:createDescription')}
-          </Typography>
-        </Box>
-      </Stack>
+    <PageContent>
+      {/* Header */}
+      <PageTitle>
+        <PageTitle.BackButton component={<Link to="/user-types" />} />
+        <PageTitle.Header>{t('userTypes:createUserType.title')}</PageTitle.Header>
+        <PageTitle.SubHeader>{t('userTypes:createUserType.subtitle')}</PageTitle.SubHeader>
+      </PageTitle>
 
       <Paper sx={{p: 4}}>
         {!organizationUnitsLoading && organizationUnitsError && (
@@ -547,6 +531,6 @@ export default function CreateUserTypePage() {
           {validationError}
         </Alert>
       </Snackbar>
-    </Box>
+    </PageContent>
   );
 }

@@ -32,6 +32,10 @@ describe('ROUTES', () => {
     expect(ROUTES.AUTH).toBeDefined();
   });
 
+  it('has AUTH.ERROR path', () => {
+    expect(ROUTES.AUTH.ERROR).toBe('/error');
+  });
+
   it('has AUTH.SIGN_IN path', () => {
     expect(ROUTES.AUTH.SIGN_IN).toBe('/signin');
   });
@@ -52,6 +56,7 @@ describe('ROUTES', () => {
     const routes: Routes = {
       ROOT: '/',
       AUTH: {
+        ERROR: '/error',
         SIGN_IN: '/signin',
         SIGN_UP: '/signup',
         INVITE: '/invite',
@@ -59,6 +64,7 @@ describe('ROUTES', () => {
       },
     };
     expect(routes.ROOT).toBe('/');
+    expect(routes.AUTH.ERROR).toBe('/error');
     expect(routes.AUTH.SIGN_IN).toBe('/signin');
     expect(routes.AUTH.SIGN_UP).toBe('/signup');
     expect(routes.AUTH.INVITE).toBe('/invite');

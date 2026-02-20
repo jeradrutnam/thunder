@@ -17,24 +17,25 @@
  */
 
 import {describe, it, expect, vi} from 'vitest';
-import {render, screen} from '@thunder/test-utils';
+import {render, screen} from '@testing-library/react';
 import DashboardLayout from '../DashboardLayout';
 
-// Mock components
-vi.mock('../../components/Sidebar/SideMenu', () => ({
-  default: ({defaultExpanded}: {defaultExpanded?: boolean}) => (
-    <div data-testid="side-menu" data-default-expanded={defaultExpanded}>
-      SideMenu
-    </div>
-  ),
+// Mock Asgardeo
+vi.mock('@asgardeo/react', () => ({
+  useAsgardeo: () => ({
+    signIn: vi.fn(),
+  }),
+  User: ({children}: {children: (user: unknown) => React.ReactNode}) =>
+    children({name: 'Test User', email: 'test@example.com'}),
+  SignOutButton: ({children}: {children: (props: {signOut: () => void}) => React.ReactNode}) =>
+    children({signOut: vi.fn()}),
 }));
 
-vi.mock('../../components/Header/Header', () => ({
-  default: () => <div data-testid="header">Header</div>,
-}));
-
-vi.mock('../contexts/NavigationProvider', () => ({
-  default: ({children}: {children: React.ReactNode}) => <div data-testid="navigation-provider">{children}</div>,
+// Mock react-i18next
+vi.mock('react-i18next', () => ({
+  useTranslation: () => ({
+    t: (key: string) => key,
+  }),
 }));
 
 // Mock Outlet
@@ -43,87 +44,52 @@ vi.mock('react-router', async () => {
   return {
     ...actual,
     Outlet: () => <div data-testid="outlet">Outlet Content</div>,
-  };
-});
-
-// Mock @wso2/oxygen-ui Layout
-vi.mock('@wso2/oxygen-ui', async () => {
-  const actual = await vi.importActual<typeof import('@wso2/oxygen-ui')>('@wso2/oxygen-ui');
-  return {
-    ...actual,
-    Layout: Object.assign(
-      ({children, ...props}: {children: React.ReactNode}) => <div data-testid="layout-root" {...props}>{children}</div>,
-      {
-        Sidebar: ({children}: {children: React.ReactNode}) => <div data-testid="layout-sidebar">{children}</div>,
-        Content: ({children}: {children: React.ReactNode}) => <div data-testid="layout-content">{children}</div>,
-        Header: ({children}: {children: React.ReactNode}) => <div data-testid="layout-header">{children}</div>,
-      }
+    Link: ({children, to}: {children: React.ReactNode; to: string}) => (
+      <a href={to} data-testid="router-link">
+        {children}
+      </a>
     ),
   };
 });
 
 describe('DashboardLayout', () => {
-  it('renders NavigationProvider', () => {
+  it('renders AppShell layout', () => {
     render(<DashboardLayout />);
 
-    expect(screen.getByTestId('navigation-provider')).toBeInTheDocument();
-  });
-
-  it('renders Layout component', () => {
-    render(<DashboardLayout />);
-
-    expect(screen.getByTestId('layout-root')).toBeInTheDocument();
-  });
-
-  it('renders Layout.Sidebar with SideMenu', () => {
-    render(<DashboardLayout />);
-
-    expect(screen.getByTestId('layout-sidebar')).toBeInTheDocument();
-    expect(screen.getByTestId('side-menu')).toBeInTheDocument();
-  });
-
-  it('renders Layout.Content', () => {
-    render(<DashboardLayout />);
-
-    expect(screen.getByTestId('layout-content')).toBeInTheDocument();
-  });
-
-  it('renders Layout.Header with Header component', () => {
-    render(<DashboardLayout />);
-
-    expect(screen.getByTestId('layout-header')).toBeInTheDocument();
-    expect(screen.getByTestId('header')).toBeInTheDocument();
+    // Check that the outlet is rendered
+    expect(screen.getByTestId('outlet')).toBeInTheDocument();
   });
 
   it('renders Outlet for nested routes', () => {
     render(<DashboardLayout />);
 
     expect(screen.getByTestId('outlet')).toBeInTheDocument();
+    expect(screen.getByTestId('outlet')).toHaveTextContent('Outlet Content');
   });
 
-  it('renders complete layout structure', () => {
+  it('renders navigation categories', () => {
     render(<DashboardLayout />);
 
-    expect(screen.getByTestId('navigation-provider')).toBeInTheDocument();
-    expect(screen.getByTestId('layout-root')).toBeInTheDocument();
-    expect(screen.getByTestId('layout-sidebar')).toBeInTheDocument();
-    expect(screen.getByTestId('layout-content')).toBeInTheDocument();
-    expect(screen.getByTestId('side-menu')).toBeInTheDocument();
-    expect(screen.getByTestId('header')).toBeInTheDocument();
-    expect(screen.getByTestId('outlet')).toBeInTheDocument();
+    // Check for category labels
+    expect(screen.getByText('Identities')).toBeInTheDocument();
+    expect(screen.getByText('Resources')).toBeInTheDocument();
   });
 
-  it('passes defaultExpanded=true to SideMenu when dense=false by default', () => {
+  it('renders navigation items', () => {
     render(<DashboardLayout />);
 
-    const sideMenu = screen.getByTestId('side-menu');
-    expect(sideMenu).toHaveAttribute('data-default-expanded', 'true');
+    // Check for navigation items using translation keys
+    expect(screen.getByText('navigation:pages.users')).toBeInTheDocument();
+    expect(screen.getByText('navigation:pages.userTypes')).toBeInTheDocument();
+    expect(screen.getByText('navigation:pages.applications')).toBeInTheDocument();
+    expect(screen.getByText('navigation:pages.integrations')).toBeInTheDocument();
+    expect(screen.getByText('navigation:pages.flows')).toBeInTheDocument();
   });
 
-  it('passes defaultExpanded=false to SideMenu when dense=true', () => {
-    render(<DashboardLayout dense />);
+  it('renders footer', () => {
+    render(<DashboardLayout />);
 
-    const sideMenu = screen.getByTestId('side-menu');
-    expect(sideMenu).toHaveAttribute('data-default-expanded', 'false');
+    const currentYear = new Date().getFullYear();
+    expect(screen.getByText(new RegExp(currentYear.toString()))).toBeInTheDocument();
   });
 });

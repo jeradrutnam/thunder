@@ -325,6 +325,7 @@ const translations = {
   // Users namespace - User management feature translations
   // ============================================================================
   users: {
+    // Listing page
     title: 'User Management',
     subtitle: 'Manage users, roles, and permissions across your organization',
     addUser: 'Add User',
@@ -356,13 +357,23 @@ const translations = {
     userDeletedSuccess: 'User deleted successfully',
     'errors.failed.title': 'Error',
     'errors.failed.description': 'An error occurred. Please try again.',
+
+    // Edit page
+    'manageUser.title': 'Manage User',
+    'manageUser.subtitle': 'View and manage user information',
+
+    // Create page
+    'createUser.title': 'Create User',
+    'createUser.subtitle': 'Add a new user to your organization',
   },
 
   // ============================================================================
   // User Types namespace - User types feature translations
   // ============================================================================
   userTypes: {
+    // Listing page
     title: 'User Types',
+    subtitle: 'Define and manage user types with custom schemas',
     addUserType: 'Add User Type',
     createUserType: 'Create User Type',
     editUserType: 'Edit User Type',
@@ -400,6 +411,14 @@ const translations = {
     noUserTypes: 'No user types found',
     noOrganizationUnits: 'No organization units available',
     confirmDeleteUserType: 'Are you sure you want to delete this user type?',
+
+    // Edit page
+    'manageUserType.title': 'Manage User Type',
+    'manageUserType.subtitle': 'View and manage user type information',
+
+    // Create page
+    'createUserType.title': 'Create User Type',
+    'createUserType.subtitle': 'Add a new user type to your organization',
   },
 
   // ============================================================================
@@ -430,13 +449,15 @@ const translations = {
 
     'delete.dialog.title': 'Delete Organization Unit',
     'delete.dialog.message': 'Are you sure you want to delete this organization unit? This action cannot be undone.',
-    'delete.dialog.disclaimer': 'Warning: All associated data, configurations, and user assignments will be permanently removed.',
+    'delete.dialog.disclaimer':
+      'Warning: All associated data, configurations, and user assignments will be permanently removed.',
     'delete.dialog.error': 'Failed to delete organization unit. Please try again.',
 
     /* -------------------- Edit page -------------------- */
     // Common
     'edit.page.error': 'Failed to load organization unit',
     'edit.page.notFound': 'Organization unit not found',
+    'edit.page.logoUpdate.label': 'Update Logo',
     'edit.page.back': 'Back to Organization Units',
     'edit.page.backToOU': 'Back to {{name}}',
     'edit.page.description.empty': 'No description',

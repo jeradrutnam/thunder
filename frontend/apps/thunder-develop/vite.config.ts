@@ -22,15 +22,23 @@ import {resolve, dirname} from 'path';
 import {fileURLToPath} from 'url';
 import basicSsl from '@vitejs/plugin-basic-ssl';
 import {visualizer} from 'rollup-plugin-visualizer';
+import {readFileSync} from 'fs';
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
 const PORT = process.env.PORT ? Number(process.env.PORT) : 5191;
 const HOST = process.env.HOST ?? 'localhost';
 const BASE_URL = process.env.BASE_URL ?? '/develop';
 
+// Read version from frontend/version.txt
+const versionFile = resolve(currentDir, '../../../version.txt');
+const VERSION = readFileSync(versionFile, 'utf-8').trim();
+
 // https://vite.dev/config/
 export default defineConfig({
   base: BASE_URL,
+  define: {
+    VERSION: JSON.stringify(VERSION),
+  },
   plugins: [
     basicSsl(),
     react({
@@ -69,8 +77,6 @@ export default defineConfig({
       // when using linked packages
       react: resolve(__dirname, './node_modules/react'),
       'react-dom': resolve(__dirname, './node_modules/react-dom'),
-      '@emotion/react': resolve(__dirname, './node_modules/@emotion/react'),
-      '@emotion/styled': resolve(__dirname, './node_modules/@emotion/styled'),
     },
     conditions: ['browser', 'module', 'import', 'default'],
   },

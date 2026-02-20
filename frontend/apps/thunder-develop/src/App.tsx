@@ -96,7 +96,7 @@ export default function App(): JSX.Element {
           path="/flows/signin"
           element={
             <ProtectedRoute>
-              <DashboardLayout dense />
+              <DashboardLayout />
             </ProtectedRoute>
           }
         >
@@ -106,7 +106,7 @@ export default function App(): JSX.Element {
           path="/flows/signin/:flowId"
           element={
             <ProtectedRoute>
-              <DashboardLayout dense />
+              <DashboardLayout />
             </ProtectedRoute>
           }
         >

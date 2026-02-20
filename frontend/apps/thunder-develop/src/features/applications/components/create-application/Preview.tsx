@@ -31,9 +31,11 @@ import {
   Avatar,
   Stack,
   OxygenUIThemeProvider,
+  OxygenTheme,
 } from '@wso2/oxygen-ui';
 import {AppWindowMac, KeyRound} from '@wso2/oxygen-ui-icons-react';
 import type {JSX} from 'react';
+import {useMemo} from 'react';
 import {useTranslation} from 'react-i18next';
 import {type IdentityProvider} from '@/features/integrations/models/identity-provider';
 import getIntegrationIcon from '@/features/integrations/utils/getIntegrationIcon';
@@ -121,6 +123,8 @@ export default function Preview({appLogo, selectedTheme, integrations}: PreviewP
   const hasSocialLogins: boolean = selectedProviders.length > 0;
   const hasSmsOtp: boolean = integrations['sms-otp'] ?? false;
 
+  const previewTheme = useMemo(() => oxygenUIThemeTransformer(OxygenTheme, selectedTheme), [selectedTheme]);
+
   return (
     <Box
       sx={{
@@ -201,7 +205,7 @@ export default function Preview({appLogo, selectedTheme, integrations}: PreviewP
             position: 'relative',
           }}
         >
-          <OxygenUIThemeProvider theme={oxygenUIThemeTransformer(selectedTheme)}>
+          <OxygenUIThemeProvider theme={previewTheme}>
             <ThemeProvider mode={colorMode}>
               <Box>
                 <BaseSignIn onError={() => {}} onSuccess={() => {}}>
@@ -252,24 +256,24 @@ export default function Preview({appLogo, selectedTheme, integrations}: PreviewP
                         </Box>
                       )}
 
-                    {/* Passkey option - Conditionally rendered */}
-                    {hasPasskey && (
-                      <Box
-                        component="form"
-                        onSubmit={(e) => e.preventDefault()}
-                        sx={{display: 'flex', flexDirection: 'column', gap: 2, mb: hasSocialLogins ? 2 : 0}}
-                      >
-                        <Button
-                          type="submit"
-                          fullWidth
-                          variant={hasUsernamePassword ? 'outlined' : 'contained'}
-                          color="primary"
-                          startIcon={<KeyRound />}
+                      {/* Passkey option - Conditionally rendered */}
+                      {hasPasskey && (
+                        <Box
+                          component="form"
+                          onSubmit={(e) => e.preventDefault()}
+                          sx={{display: 'flex', flexDirection: 'column', gap: 2, mb: hasSocialLogins ? 2 : 0}}
                         >
-                          {t('applications:onboarding.preview.passkeySignIn')}
-                        </Button>
-                      </Box>
-                    )}
+                          <Button
+                            type="submit"
+                            fullWidth
+                            variant={hasUsernamePassword ? 'outlined' : 'contained'}
+                            color="primary"
+                            startIcon={<KeyRound />}
+                          >
+                            {t('applications:onboarding.preview.passkeySignIn')}
+                          </Button>
+                        </Box>
+                      )}
 
                       {/* SMS OTP option - Conditionally rendered */}
                       {hasSmsOtp && (
@@ -317,7 +321,7 @@ export default function Preview({appLogo, selectedTheme, integrations}: PreviewP
 
                       {/* Divider - Show when multiple auth methods exist */}
                       {(((hasUsernamePassword || hasPasskey) && hasSmsOtp) ||
-                        (((hasUsernamePassword || hasPasskey) || hasSmsOtp) && hasSocialLogins)) && (
+                        ((hasUsernamePassword || hasPasskey || hasSmsOtp) && hasSocialLogins)) && (
                         <Divider>{t('applications:onboarding.preview.dividerText')}</Divider>
                       )}
 

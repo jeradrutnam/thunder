@@ -17,26 +17,28 @@
  */
 
 import {useEffect, useState, type JSX} from 'react';
-import { useSearchParams } from 'react-router';
+import {useSearchParams} from 'react-router';
 import {ColorSchemeImage, Stack, Typography} from '@wso2/oxygen-ui';
 
 export default function Error(): JSX.Element {
   const [searchParams] = useSearchParams();
-  const [errorTitle, setErrorTitle] = useState("Oops, that didn&apos;t work");
-  const [errorDescription, setErrorDescription] =
-    useState(searchParams.get("errorMessage") ?? "We&apos;re sorry, we ran into a problem. Please try again!");
-  const [errorImagePublicPath, setErrorImagePublicPath] = useState("/assets/images/error-500.svg");
-  const [errrorImageInvertedPublicPath, setErrorImageInvertedPublicPath] =
-    useState("/assets/images/error-500-inverted.svg");
+  const [errorTitle, setErrorTitle] = useState('Oops, that didn&apos;t work');
+  const [errorDescription, setErrorDescription] = useState(
+    searchParams.get('errorMessage') ?? 'We&apos;re sorry, we ran into a problem. Please try again!',
+  );
+  const [errorImagePublicPath, setErrorImagePublicPath] = useState('/assets/images/error-500.svg');
+  const [errorImageInvertedPublicPath, setErrorImageInvertedPublicPath] = useState(
+    '/assets/images/error-500-inverted.svg',
+  );
 
-  const ErrorCode = searchParams.get("errorCode") ?? "";
+  const ErrorCode = searchParams.get('errorCode') ?? '';
 
   useEffect(() => {
-    if (ErrorCode === "invalid_request") {
-      setErrorTitle("Oh no, we ran into a problem!");
-      setErrorDescription("The request is invalid. Please check and try again.");
-      setErrorImagePublicPath("/assets/images/error-500.svg");
-      setErrorImageInvertedPublicPath("/assets/images/error-500-inverted.svg");
+    if (ErrorCode === 'invalid_request') {
+      setErrorTitle('Oh no, we ran into a problem!');
+      setErrorDescription('The request is invalid. Please check and try again.');
+      setErrorImagePublicPath('/assets/images/error-500.svg');
+      setErrorImageInvertedPublicPath('/assets/images/error-500-inverted.svg');
     }
   }, [ErrorCode]);
 
@@ -65,7 +67,7 @@ export default function Error(): JSX.Element {
         <ColorSchemeImage
           src={{
             light: `${import.meta.env.BASE_URL}${errorImagePublicPath}`,
-            dark: `${import.meta.env.BASE_URL}${errrorImageInvertedPublicPath}`,
+            dark: `${import.meta.env.BASE_URL}${errorImageInvertedPublicPath}`,
           }}
           alt={{light: 'Error Image (Light)', dark: 'Error Image (Dark)'}}
           height={400}
@@ -83,4 +85,3 @@ export default function Error(): JSX.Element {
     </Stack>
   );
 }
-
