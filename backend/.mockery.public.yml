@@ -344,9 +344,17 @@ packages:
   github.com/asgardeo/thunder/internal/observability:
     config:
       all: true
-      dir: tests/mocks/observabilitymock
+      dir: tests/mocks/observability/observabilitymock
       structname: '{{.InterfaceName}}Mock'
       pkgname: observabilitymock
+      filename: "{{.InterfaceName}}_mock.go"
+
+  github.com/asgardeo/thunder/internal/observability/adapter:
+    config:
+      all: true
+      dir: tests/mocks/observability/adaptermock
+      structname: '{{.InterfaceName}}Mock'
+      pkgname: adaptermock
       filename: "{{.InterfaceName}}_mock.go"
 
   github.com/asgardeo/thunder/internal/design/theme/mgt:

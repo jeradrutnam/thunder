@@ -42,7 +42,7 @@ import (
 	"github.com/asgardeo/thunder/tests/mocks/jose/jwtmock"
 	"github.com/asgardeo/thunder/tests/mocks/oauth/oauth2/granthandlersmock"
 	"github.com/asgardeo/thunder/tests/mocks/oauth/scopemock"
-	"github.com/asgardeo/thunder/tests/mocks/observabilitymock"
+	"github.com/asgardeo/thunder/tests/mocks/observability/observabilitymock"
 	"github.com/asgardeo/thunder/tests/mocks/usermock"
 )
 

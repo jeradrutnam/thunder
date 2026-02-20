@@ -78,6 +78,11 @@ func (fs *FileSubscriber) Initialize() error {
 		filePath = filepath.Join(observability, "observability.log")
 	}
 
+	if fs.adapter != nil {
+		if err := fs.adapter.Close(); err != nil {
+			fs.logger.Warn("failed to close existing file adapter", log.Error(err))
+		}
+	}
 	// Create file adapter using the Initialize pattern
 	adptr, err := adapter.InitializeFileAdapter(filePath)
 	if err != nil {

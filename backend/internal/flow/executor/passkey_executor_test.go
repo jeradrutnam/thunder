@@ -34,7 +34,7 @@ import (
 	"github.com/asgardeo/thunder/internal/userprovider"
 	"github.com/asgardeo/thunder/tests/mocks/authn/passkeymock"
 	"github.com/asgardeo/thunder/tests/mocks/flow/coremock"
-	"github.com/asgardeo/thunder/tests/mocks/observabilitymock"
+	"github.com/asgardeo/thunder/tests/mocks/observability/observabilitymock"
 	"github.com/asgardeo/thunder/tests/mocks/userprovidermock"
 )
 

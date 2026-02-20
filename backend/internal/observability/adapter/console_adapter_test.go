@@ -205,6 +205,14 @@ func TestConsoleAdapter_WriteLargeData(t *testing.T) {
 
 	adapter := InitializeConsoleAdapter()
 
+	// Read from pipe concurrently to prevent buffer saturation and deadlock
+	var buf bytes.Buffer
+	readerDone := make(chan bool)
+	go func() {
+		_, _ = io.Copy(&buf, r)
+		readerDone <- true
+	}()
+
 	// Create large data
 	largeData := make([]byte, 10000)
 	for i := range largeData {
@@ -213,17 +221,17 @@ func TestConsoleAdapter_WriteLargeData(t *testing.T) {
 
 	err := adapter.Write(largeData)
 
-	// Restore stdout
+	// Restore stdout and close writer to signal reader
 	_ = w.Close()
 	os.Stdout = oldStdout
+
+	// Wait for reader to finish
+	<-readerDone
 
 	if err != nil {
 		t.Errorf("Write() with large data error = %v", err)
 	}
 
-	// Read captured output
-	var buf bytes.Buffer
-	_, _ = io.Copy(&buf, r)
 	output := buf.Bytes()
 
 	// Verify size (should be largeData + newline)
@@ -239,6 +247,14 @@ func TestConsoleAdapter_ConcurrentWrites(t *testing.T) {
 	os.Stdout = w
 
 	adapter := InitializeConsoleAdapter()
+
+	// Read from pipe concurrently to prevent buffer saturation and deadlock
+	var buf bytes.Buffer
+	readerDone := make(chan bool)
+	go func() {
+		_, _ = io.Copy(&buf, r)
+		readerDone <- true
+	}()
 
 	const numGoroutines = 10
 	const writesPerGoroutine = 100
@@ -261,13 +277,13 @@ func TestConsoleAdapter_ConcurrentWrites(t *testing.T) {
 
 	wg.Wait()
 
-	// Restore stdout
+	// Restore stdout and close writer to signal reader
 	_ = w.Close()
 	os.Stdout = oldStdout
 
-	// Read captured output
-	var buf bytes.Buffer
-	_, _ = io.Copy(&buf, r)
+	// Wait for reader to finish
+	<-readerDone
+
 	output := buf.String()
 
 	// Should not be empty
