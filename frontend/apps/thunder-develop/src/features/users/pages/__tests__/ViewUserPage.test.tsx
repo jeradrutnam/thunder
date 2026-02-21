@@ -16,6 +16,7 @@
  * under the License.
  */
 
+import type {ReactNode} from 'react';
 import {describe, it, expect, vi, beforeEach} from 'vitest';
 import {render, screen, waitFor, within, userEvent} from '@thunder/test-utils';
 import ViewUserPage from '../ViewUserPage';
@@ -36,6 +37,18 @@ vi.mock('react-router', async () => {
     ...actual,
     useNavigate: () => mockNavigate,
     useParams: () => ({userId: 'user123'}),
+    Link: ({to, children = undefined, ...props}: {to: string; children?: ReactNode; [key: string]: unknown}) => (
+      <a
+        {...(props as Record<string, unknown>)}
+        href={to}
+        onClick={(e) => {
+          e.preventDefault();
+          Promise.resolve(mockNavigate(to)).catch(() => {});
+        }}
+      >
+        {children}
+      </a>
+    ),
   };
 });
 
@@ -343,7 +356,7 @@ describe('ViewUserPage', () => {
     it('renders user profile page with title', () => {
       render(<ViewUserPage />);
 
-      expect(screen.getByRole('heading', {name: 'User Profile'})).toBeInTheDocument();
+      expect(screen.getByRole('heading', {name: 'Manage User'})).toBeInTheDocument();
       expect(screen.getByText('View and manage user information')).toBeInTheDocument();
     });
 
@@ -426,7 +439,7 @@ describe('ViewUserPage', () => {
       const user = userEvent.setup();
       render(<ViewUserPage />);
 
-      const backButton = screen.getByRole('button', {name: /go back/i});
+      const backButton = screen.getByRole('button', {name: /^back$/i});
       await user.click(backButton);
 
       await waitFor(() => {
@@ -441,7 +454,7 @@ describe('ViewUserPage', () => {
 
       render(<ViewUserPage />);
 
-      const backButton = screen.getByRole('button', {name: /go back/i});
+      const backButton = screen.getByRole('button', {name: /^back$/i});
       await user.click(backButton);
 
       await waitFor(() => {
@@ -704,10 +717,7 @@ describe('ViewUserPage', () => {
       await user.click(screen.getByRole('button', {name: /save changes/i}));
 
       await waitFor(() => {
-        expect(mockUpdateUser).toHaveBeenCalledWith(
-          'user123',
-          expect.objectContaining({organizationUnit: 'test-ou'}),
-        );
+        expect(mockUpdateUser).toHaveBeenCalledWith('user123', expect.objectContaining({organizationUnit: 'test-ou'}));
       });
     });
 
