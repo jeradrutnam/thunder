@@ -16,6 +16,7 @@
  * under the License.
  */
 
+import type {ReactNode} from 'react';
 import {describe, it, expect, vi, beforeEach} from 'vitest';
 import {render, screen, waitFor, userEvent, fireEvent} from '@thunder/test-utils';
 import type {OrganizationUnitListParams} from '@/features/organization-units/models/requests';
@@ -31,6 +32,18 @@ vi.mock('react-router', async () => {
   return {
     ...actual,
     useNavigate: () => mockNavigate,
+    Link: ({to, children = undefined, ...props}: {to: string; children?: ReactNode; [key: string]: unknown}) => (
+      <a
+        {...(props as Record<string, unknown>)}
+        href={to}
+        onClick={(e) => {
+          e.preventDefault();
+          Promise.resolve(mockNavigate(to)).catch(() => {});
+        }}
+      >
+        {children}
+      </a>
+    ),
   };
 });
 
@@ -104,8 +117,8 @@ describe('CreateUserTypePage', () => {
   it('renders the page with initial form', () => {
     render(<CreateUserTypePage />);
 
-    expect(screen.getByRole('heading', {name: 'Add User Type'})).toBeInTheDocument();
-    expect(screen.getByText('Define a new user type schema for your organization')).toBeInTheDocument();
+    expect(screen.getByRole('heading', {name: 'Create User Type'})).toBeInTheDocument();
+    expect(screen.getByText('Add a new user type to your organization')).toBeInTheDocument();
     expect(screen.getByLabelText(/Type Name/i)).toBeInTheDocument();
   });
 
@@ -113,7 +126,7 @@ describe('CreateUserTypePage', () => {
     const user = userEvent.setup();
     render(<CreateUserTypePage />);
 
-    const backButton = screen.getByRole('button', {name: /go back/i});
+    const backButton = screen.getByRole('button', {name: /^back$/i});
     await user.click(backButton);
 
     await waitFor(() => {

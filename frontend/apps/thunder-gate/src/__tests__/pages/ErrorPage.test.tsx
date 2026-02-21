@@ -16,9 +16,23 @@
  * under the License.
  */
 
-import type {JSX} from 'react';
-import Error from '../components/Error/Error';
+import {describe, it, expect, vi} from 'vitest';
+import {render, screen} from '@thunder/test-utils';
+import ErrorPage from '../../pages/ErrorPage';
 
-export default function ErrorPage(): JSX.Element {
-  return <Error />;
-}
+// Mock the Error component
+vi.mock('../../components/Error/Error', () => ({
+  default: () => <div data-testid="error-component">Error Component</div>,
+}));
+
+describe('ErrorPage', () => {
+  it('renders without crashing', () => {
+    const {container} = render(<ErrorPage />);
+    expect(container).toBeInTheDocument();
+  });
+
+  it('renders Error component', () => {
+    render(<ErrorPage />);
+    expect(screen.getByTestId('error-component')).toBeInTheDocument();
+  });
+});

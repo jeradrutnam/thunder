@@ -40,8 +40,6 @@ export default defineConfig({
       // when using linked packages
       react: resolve(__dirname, './node_modules/react'),
       'react-dom': resolve(__dirname, './node_modules/react-dom'),
-      '@emotion/react': resolve(__dirname, './node_modules/@emotion/react'),
-      '@emotion/styled': resolve(__dirname, './node_modules/@emotion/styled'),
     },
   },
   plugins: [
