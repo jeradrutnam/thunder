@@ -231,10 +231,6 @@ func (suite *OrganizationUnitServiceTestSuite) assertOUListResponse(
 	}
 }
 
-func strPtr(value string) *string {
-	return &value
-}
-
 func (suite *OrganizationUnitServiceTestSuite) TestOUService_GetOrganizationUnitList() {
 	testCases := []struct {
 		name       string
@@ -707,7 +703,7 @@ func (suite *OrganizationUnitServiceTestSuite) TestOUService_IsParent() {
 	suite.Run("returns true for direct parent", func() {
 		store := newOrganizationUnitStoreInterfaceMock(suite.T())
 		store.On("GetOrganizationUnit", childID).
-			Return(OrganizationUnit{ID: childID, Parent: strPtr(parentID)}, nil).
+			Return(OrganizationUnit{ID: childID, Parent: new(parentID)}, nil).
 			Once()
 
 		service := suite.newService(store)
@@ -721,10 +717,10 @@ func (suite *OrganizationUnitServiceTestSuite) TestOUService_IsParent() {
 	suite.Run("returns true for ancestor", func() {
 		store := newOrganizationUnitStoreInterfaceMock(suite.T())
 		store.On("GetOrganizationUnit", childID).
-			Return(OrganizationUnit{ID: childID, Parent: strPtr("mid-1")}, nil).
+			Return(OrganizationUnit{ID: childID, Parent: new("mid-1")}, nil).
 			Once()
 		store.On("GetOrganizationUnit", "mid-1").
-			Return(OrganizationUnit{ID: "mid-1", Parent: strPtr(parentID)}, nil).
+			Return(OrganizationUnit{ID: "mid-1", Parent: new(parentID)}, nil).
 			Once()
 
 		service := suite.newService(store)
@@ -738,7 +734,7 @@ func (suite *OrganizationUnitServiceTestSuite) TestOUService_IsParent() {
 	suite.Run("returns false when parent not in hierarchy", func() {
 		store := newOrganizationUnitStoreInterfaceMock(suite.T())
 		store.On("GetOrganizationUnit", childID).
-			Return(OrganizationUnit{ID: childID, Parent: strPtr("mid-1")}, nil).
+			Return(OrganizationUnit{ID: childID, Parent: new("mid-1")}, nil).
 			Once()
 		store.On("GetOrganizationUnit", "mid-1").
 			Return(OrganizationUnit{ID: "mid-1"}, nil).
@@ -964,7 +960,7 @@ func (suite *OrganizationUnitServiceTestSuite) TestOUService_UpdateOrganizationU
 			request: OrganizationUnitRequest{
 				Handle: "root",
 				Name:   "Root",
-				Parent: strPtr("ou-1"),
+				Parent: new("ou-1"),
 			},
 			setup: func(store *organizationUnitStoreInterfaceMock) {
 				existing := OrganizationUnit{ID: "ou-1", Handle: "root", Name: "Root"}
@@ -1858,10 +1854,10 @@ func (suite *OrganizationUnitServiceTestSuite) TestOUService_CheckCircularDepend
 	parentID := testParentID
 
 	store.On("GetOrganizationUnit", parentID).
-		Return(OrganizationUnit{ID: parentID, Parent: strPtr("grand")}, nil).
+		Return(OrganizationUnit{ID: parentID, Parent: new("grand")}, nil).
 		Once()
 	store.On("GetOrganizationUnit", "grand").
-		Return(OrganizationUnit{ID: "grand", Parent: strPtr("ou-1")}, nil).
+		Return(OrganizationUnit{ID: "grand", Parent: new("ou-1")}, nil).
 		Once()
 
 	err := service.checkCircularDependency("ou-1", &parentID)
@@ -1923,7 +1919,7 @@ func (suite *OrganizationUnitServiceTestSuite) TestOUService_UpdateOrganizationU
 			Handle:      "finance",
 			Name:        "Finance",
 			Description: "updated",
-			Parent:      strPtr(parentID),
+			Parent:      new(parentID),
 		})
 
 		suite.Require().Nil(err)
@@ -1974,7 +1970,7 @@ func (suite *OrganizationUnitServiceTestSuite) TestOUService_UpdateOrganizationU
 		result, err := service.UpdateOrganizationUnit(testOUID, OrganizationUnitRequest{
 			Handle: "finance",
 			Name:   "Finance",
-			Parent: strPtr(parentID),
+			Parent: new(parentID),
 		})
 
 		suite.Require().Nil(err)
