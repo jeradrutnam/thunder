@@ -474,7 +474,7 @@ export default function ViewUserTypePage() {
 
           {!isEditMode ? (
             // View Mode - Display properties in a table
-            <TableContainer>
+            <TableContainer component={Paper}>
               <Table sx={{'& .MuiTableCell-root': {py: 2}}}>
                 <TableHead>
                   <TableRow>

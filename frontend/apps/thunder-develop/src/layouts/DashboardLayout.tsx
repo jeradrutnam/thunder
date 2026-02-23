@@ -28,7 +28,7 @@ import {
   Sidebar,
   UserMenu,
 } from '@wso2/oxygen-ui';
-import {Building, Layers, LayoutGrid, UserRound, UsersRound, Workflow} from '@wso2/oxygen-ui-icons-react';
+import {Building, Layers, LayoutGrid, UserRoundCog, UsersRound, Workflow} from '@wso2/oxygen-ui-icons-react';
 import {SignOutButton, User, useAsgardeo} from '@asgardeo/react';
 import {useTranslation} from 'react-i18next';
 import {useLogger} from '@thunder/logger/react';
@@ -49,6 +49,17 @@ export default function DashboardLayout(): ReactNode {
   const appRoutes = useMemo(
     () => [
       {
+        category: t('navigation:categories.resources'),
+        routes: [
+          {
+            id: 'applications',
+            text: t('navigation:pages.applications'),
+            icon: <LayoutGrid />,
+            path: '/applications',
+          },
+        ],
+      },
+      {
         category: t('navigation:categories.identities'),
         routes: [
           {
@@ -60,19 +71,8 @@ export default function DashboardLayout(): ReactNode {
           {
             id: 'user-types',
             text: t('navigation:pages.userTypes'),
-            icon: <UserRound />,
+            icon: <UserRoundCog />,
             path: '/user-types',
-          },
-        ],
-      },
-      {
-        category: t('navigation:categories.resources'),
-        routes: [
-          {
-            id: 'applications',
-            text: t('navigation:pages.applications'),
-            icon: <LayoutGrid />,
-            path: '/applications',
           },
         ],
       },
