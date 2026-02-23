@@ -42,11 +42,6 @@ const (
 	testWrongResourceID  = "res-wrong"
 )
 
-// Helper function to create string pointers
-func stringPtr(s string) *string {
-	return &s
-}
-
 // matchResourceServer is a matcher function that compares ResourceServer ignoring the Delimiter field
 // since it's set by the service before calling the store.
 func matchResourceServer(expected ResourceServer) interface{} {
@@ -1982,7 +1977,7 @@ func (suite *ResourceServiceTestSuite) TestGetResourceList() {
 		{
 			name:             "Success_WithParent",
 			resourceServerID: "rs-123",
-			parentID:         stringPtr(testParentResourceID),
+			parentID:         new(testParentResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -2005,7 +2000,7 @@ func (suite *ResourceServiceTestSuite) TestGetResourceList() {
 		{
 			name:             "Success_EmptyParent",
 			resourceServerID: "rs-123",
-			parentID:         stringPtr(""),
+			parentID:         new(""),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -2050,7 +2045,7 @@ func (suite *ResourceServiceTestSuite) TestGetResourceList() {
 		{
 			name:             "Error_ParentResourceNotFound",
 			resourceServerID: "rs-123",
-			parentID:         stringPtr(testParentResourceID),
+			parentID:         new(testParentResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -2078,7 +2073,7 @@ func (suite *ResourceServiceTestSuite) TestGetResourceList() {
 		{
 			name:             "Error_CheckParentError",
 			resourceServerID: "rs-123",
-			parentID:         stringPtr(testParentResourceID),
+			parentID:         new(testParentResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -2753,7 +2748,7 @@ func (suite *ResourceServiceTestSuite) TestUpdateAction() {
 		{
 			name:             "Success_AtResource",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			actionID:         "action-123",
 			action: Action{
 				Name:        testUpdatedName,
@@ -2812,7 +2807,7 @@ func (suite *ResourceServiceTestSuite) TestUpdateAction() {
 		{
 			name:             "Error_EmptyResourceID",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(""),
+			resourceID:       new(""),
 			actionID:         "action-123",
 			action:           Action{Description: testNewDescription},
 			setupMocks:       func() {},
@@ -2834,7 +2829,7 @@ func (suite *ResourceServiceTestSuite) TestUpdateAction() {
 		{
 			name:             "Error_ResourceNotFound",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			actionID:         "action-123",
 			action:           Action{Description: testNewDescription},
 			setupMocks: func() {
@@ -2864,7 +2859,7 @@ func (suite *ResourceServiceTestSuite) TestUpdateAction() {
 		{
 			name:             "Error_ActionNotFound_AtResource",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			actionID:         "action-123",
 			action:           Action{Description: testNewDescription},
 			setupMocks: func() {
@@ -2897,7 +2892,7 @@ func (suite *ResourceServiceTestSuite) TestUpdateAction() {
 		{
 			name:             "Error_CheckResourceError",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			actionID:         "action-123",
 			action:           Action{Description: testNewDescription},
 			setupMocks: func() {
@@ -3435,7 +3430,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Success_AtResource",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -3462,7 +3457,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Success_EmptyList",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -3485,7 +3480,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Error_EmptyResourceID",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(""),
+			resourceID:       new(""),
 			limit:            30,
 			offset:           0,
 			setupMocks:       func() {},
@@ -3494,7 +3489,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Error_ResourceServerNotFound",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -3507,7 +3502,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Error_ResourceNotFound",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -3523,7 +3518,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Error_CheckResourceServerError",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -3536,7 +3531,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Error_CheckResourceError",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -3551,7 +3546,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Error_CountError",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
@@ -3571,7 +3566,7 @@ func (suite *ResourceServiceTestSuite) TestGetActionListAtResource() {
 		{
 			name:             "Error_ListError",
 			resourceServerID: "rs-123",
-			resourceID:       stringPtr(testResourceID),
+			resourceID:       new(testResourceID),
 			limit:            30,
 			offset:           0,
 			setupMocks: func() {
