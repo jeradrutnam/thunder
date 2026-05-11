@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "038e9849-75f7-493f-9737-3df58787dd67",
+      "id": "5a64375b-0f7d-4850-9677-57d877ef21ff",
       "name": "flow-meta",
       "description": {
         "content": "Operations for retrieving flow metadata",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "2d26e9e6-952a-439b-b3f0-0b93d78753fb",
+          "id": "1b940453-a47d-484b-9d01-3022f546b823",
           "name": "Get flow metadata",
           "request": {
             "name": "Get flow metadata",
@@ -83,7 +83,7 @@
           },
           "response": [
             {
-              "id": "8828c5aa-5749-47a1-b23d-d8782e332af3",
+              "id": "5102f74b-81c8-47a4-a145-d24abf1f6781",
               "name": "Flow metadata retrieved successfully",
               "originalRequest": {
                 "url": {
@@ -150,12 +150,12 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"isRegistrationFlowEnabled\": \"<boolean>\",\n  \"design\": {\n    \"theme\": {\n      \"Ut881\": \"sint ad\",\n      \"ut9ff\": \"laboris\"\n    },\n    \"layout\": {\n      \"qui_c\": true\n    }\n  },\n  \"i18n\": {\n    \"languages\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"language\": \"<string>\",\n    \"translations\": {\n      \"ut_20\": {\n        \"ea35c\": \"<string>\",\n        \"dolor2d\": \"<string>\"\n      }\n    },\n    \"totalResults\": \"<integer>\"\n  },\n  \"application\": {\n    \"id\": \"<uuid>\",\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"logoUrl\": \"<uri>\",\n    \"url\": \"<uri>\",\n    \"tosUri\": \"<uri>\",\n    \"policyUri\": \"<uri>\"\n  },\n  \"ou\": {\n    \"id\": \"<uuid>\",\n    \"handle\": \"<string>\",\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"logoUrl\": \"<uri>\",\n    \"tosUri\": \"<uri>\",\n    \"policyUri\": \"<uri>\",\n    \"cookiePolicyUri\": \"<uri>\"\n  }\n}",
+              "body": "{\n  \"isRegistrationFlowEnabled\": \"<boolean>\",\n  \"design\": {\n    \"theme\": {\n      \"occaecat_51b\": false,\n      \"sed_3cb\": -44518585.59195452\n    },\n    \"layout\": {\n      \"eiusmod_2f\": \"officia id ad culpa sint\"\n    }\n  },\n  \"i18n\": {\n    \"languages\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"language\": \"<string>\",\n    \"translations\": {\n      \"fugiat7\": {\n        \"eu_\": \"<string>\",\n        \"non_fa9\": \"<string>\",\n        \"aute_3f\": \"<string>\"\n      }\n    },\n    \"totalResults\": \"<integer>\"\n  },\n  \"application\": {\n    \"id\": \"<uuid>\",\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"logoUrl\": \"<uri>\",\n    \"url\": \"<uri>\",\n    \"tosUri\": \"<uri>\",\n    \"policyUri\": \"<uri>\"\n  },\n  \"ou\": {\n    \"id\": \"<uuid>\",\n    \"handle\": \"<string>\",\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"logoUrl\": \"<uri>\",\n    \"tosUri\": \"<uri>\",\n    \"policyUri\": \"<uri>\",\n    \"cookiePolicyUri\": \"<uri>\"\n  }\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "84d19fa6-0be6-492c-9d76-63dcef0678b1",
+              "id": "3e7514d5-9efc-4136-823e-81db0f5fd0d9",
               "name": "Bad request - Invalid input",
               "originalRequest": {
                 "url": {
@@ -227,7 +227,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "5ee43353-1fae-48b1-9af3-9c35630f21b0",
+              "id": "e30f15ff-134c-4f90-9505-ef03d87a421f",
               "name": "Resource not found",
               "originalRequest": {
                 "url": {
@@ -299,7 +299,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "07a9321c-1e3e-4204-a82f-e156c6cafaf0",
+              "id": "6f37f44d-bd5b-4ed8-9ff4-404cb969c782",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -407,7 +407,7 @@
     }
   ],
   "info": {
-    "_postman_id": "867da07d-16c3-4b2d-bc87-6b2cd09a1f8e",
+    "_postman_id": "23d1a5cb-604c-4d6c-99c1-3dbdb2be52d3",
     "name": "Flow Metadata API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

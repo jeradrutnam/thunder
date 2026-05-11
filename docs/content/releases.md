@@ -16,65 +16,18 @@ Explore the latest updates, features, and improvements to **ThunderID**.
   <a href="https://github.com/RushanNanayakkara" title="RushanNanayakkara" target="_blank" style={{ transition: 'transform 0.2s' }}>
     <img src="https://avatars.githubusercontent.com/u/42939752?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RushanNanayakkara" />
   </a>
-  <a href="https://github.com/sacrana0" title="sacrana0" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/183357006?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sacrana0" />
-  </a>
-  <a href="https://github.com/jeradrutnam" title="jeradrutnam" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/7569427?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="jeradrutnam" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/anushasunkada" title="anushasunkada" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/270975584?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="anushasunkada" />
-  </a>
-  <a href="https://github.com/SajidMannikeri17" title="SajidMannikeri17" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/200893234?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="SajidMannikeri17" />
-  </a>
-  <a href="https://github.com/RandithaK" title="RandithaK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/154749626?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RandithaK" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/nandhu-kumar" title="nandhu-kumar" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/100744358?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="nandhu-kumar" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/Dilusha-Madushan" title="Dilusha-Madushan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/77233788?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Dilusha-Madushan" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/anushasunkada" title="anushasunkada" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/270975584?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="anushasunkada" />
-  </a>
-  <a href="https://github.com/SajidMannikeri17" title="SajidMannikeri17" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/200893234?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="SajidMannikeri17" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
 
 <div style={{ borderLeft: '3px solid #ff8c00', paddingLeft: '5px', marginLeft: '8px', marginBottom: '24px' }}>
 - Harden CORS origin matching and preflight handling
+- Extract OAuth and client configurations from application into a reusable module
 </div>
 
 #### 🚀 Features
@@ -96,7 +49,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 - JWE encrypt and decrypt migration to use RuntimeCryptoProvider
 - Add flow template layouts, validation, and auto-assign connections
 - add JWE and nested JWT support for UserInfo endpoint
-- Extract OAuth and client configurations from application into a reusable module
 - Add import endpoint support
 - JWE encrypt and decrypt alg support to use RuntimeCryptoProvider
 - Email Executor generic template data handling
@@ -129,48 +81,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/sahandilshan" title="sahandilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32576163?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sahandilshan" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/Dilusha-Madushan" title="Dilusha-Madushan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/77233788?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Dilusha-Madushan" />
-  </a>
-  <a href="https://github.com/NutharaNR" title="NutharaNR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/119397108?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="NutharaNR" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/RandithaK" title="RandithaK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/154749626?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RandithaK" />
-  </a>
-  <a href="https://github.com/ThaminduR" title="ThaminduR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/45028707?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduR" />
-  </a>
-  <a href="https://github.com/LinukaAr" title="LinukaAr" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/89442011?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="LinukaAr" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -244,50 +154,14 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/NutharaNR" title="NutharaNR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/119397108?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="NutharaNR" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/Kavirubc" title="Kavirubc" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/41495525?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Kavirubc" />
-  </a>
-  <a href="https://github.com/BimsaraBodaragama" title="BimsaraBodaragama" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/75576423?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="BimsaraBodaragama" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/Dilusha-Madushan" title="Dilusha-Madushan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/77233788?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Dilusha-Madushan" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
   <a href="https://github.com/RushanNanayakkara" title="RushanNanayakkara" target="_blank" style={{ transition: 'transform 0.2s' }}>
     <img src="https://avatars.githubusercontent.com/u/42939752?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RushanNanayakkara" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
   </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/Kavirubc" title="Kavirubc" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/41495525?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Kavirubc" />
-  </a>
-  <a href="https://github.com/NutharaNR" title="NutharaNR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/119397108?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="NutharaNR" />
-  </a>
-  <a href="https://github.com/BimsaraBodaragama" title="BimsaraBodaragama" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/75576423?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="BimsaraBodaragama" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -334,35 +208,8 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
   <a href="https://github.com/RushanNanayakkara" title="RushanNanayakkara" target="_blank" style={{ transition: 'transform 0.2s' }}>
     <img src="https://avatars.githubusercontent.com/u/42939752?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RushanNanayakkara" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/Dilusha-Madushan" title="Dilusha-Madushan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/77233788?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Dilusha-Madushan" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/himeshsiriwardana" title="himeshsiriwardana" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/31583807?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="himeshsiriwardana" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
   </a>
 </div></div>
 
@@ -421,33 +268,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/Dilusha-Madushan" title="Dilusha-Madushan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/77233788?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Dilusha-Madushan" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/sahandilshan" title="sahandilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32576163?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sahandilshan" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/7" title="7" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/7853494?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="7" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -501,30 +321,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/Dilusha-Madushan" title="Dilusha-Madushan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/77233788?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Dilusha-Madushan" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/sahandilshan" title="sahandilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32576163?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sahandilshan" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/ThaminduR" title="ThaminduR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/45028707?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduR" />
-  </a>
 </div></div>
 
 #### 🚀 Features
@@ -576,47 +372,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/Dilusha-Madushan" title="Dilusha-Madushan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/77233788?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Dilusha-Madushan" />
-  </a>
-  <a href="https://github.com/ThaminduR" title="ThaminduR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/45028707?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduR" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/Dilusha-Madushan" title="Dilusha-Madushan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/77233788?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Dilusha-Madushan" />
-  </a>
-  <a href="https://github.com/ThaminduR" title="ThaminduR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/45028707?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduR" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -673,44 +433,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/RandithaK" title="RandithaK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/154749626?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RandithaK" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/himeshsiriwardana" title="himeshsiriwardana" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/31583807?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="himeshsiriwardana" />
-  </a>
-  <a href="https://github.com/littleKitchen" title="littleKitchen" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/55852668?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="littleKitchen" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/littleKitchen" title="littleKitchen" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/55852668?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="littleKitchen" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -766,27 +493,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/jeradrutnam" title="jeradrutnam" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/7569427?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="jeradrutnam" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
 </div></div>
 
 #### ✨ Improvements
@@ -822,36 +528,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/DharshanSR" title="DharshanSR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/150146619?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DharshanSR" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/RandithaK" title="RandithaK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/154749626?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RandithaK" />
-  </a>
-  <a href="https://github.com/jeradrutnam" title="jeradrutnam" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/7569427?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="jeradrutnam" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -916,38 +592,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/RandithaK" title="RandithaK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/154749626?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RandithaK" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/AnuradhaSK" title="AnuradhaSK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25483865?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="AnuradhaSK" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/AnuradhaSK" title="AnuradhaSK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25483865?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="AnuradhaSK" />
-  </a>
 </div></div>
 
 #### 🚀 Features
@@ -988,74 +637,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/kavindadimuthu" title="kavindadimuthu" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/146766148?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="kavindadimuthu" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/sacrana0" title="sacrana0" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/183357006?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sacrana0" />
-  </a>
-  <a href="https://github.com/yehenidodanwela" title="yehenidodanwela" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/175306990?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="yehenidodanwela" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/nandhu-kumar" title="nandhu-kumar" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/100744358?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="nandhu-kumar" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/indeewari" title="indeewari" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/4128062?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="indeewari" />
-  </a>
-  <a href="https://github.com/garuka-satharasinghe" title="garuka-satharasinghe" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/142331771?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="garuka-satharasinghe" />
-  </a>
-  <a href="https://github.com/RandithaK" title="RandithaK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/154749626?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RandithaK" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/yehenidodanwela" title="yehenidodanwela" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/175306990?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="yehenidodanwela" />
-  </a>
-  <a href="https://github.com/RandithaK" title="RandithaK" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/154749626?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="RandithaK" />
-  </a>
-  <a href="https://github.com/indeewari" title="indeewari" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/4128062?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="indeewari" />
-  </a>
-  <a href="https://github.com/garuka-satharasinghe" title="garuka-satharasinghe" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/142331771?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="garuka-satharasinghe" />
-  </a>
-  <a href="https://github.com/kavindadimuthu" title="kavindadimuthu" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/146766148?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="kavindadimuthu" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1135,50 +721,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/sacrana0" title="sacrana0" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/183357006?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sacrana0" />
-  </a>
-  <a href="https://github.com/jeradrutnam" title="jeradrutnam" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/7569427?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="jeradrutnam" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/nandhu-kumar" title="nandhu-kumar" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/100744358?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="nandhu-kumar" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/DharshanSR" title="DharshanSR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/150146619?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DharshanSR" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/DharshanSR" title="DharshanSR" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/150146619?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DharshanSR" />
-  </a>
-  <a href="https://github.com/nandhu-kumar" title="nandhu-kumar" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/100744358?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="nandhu-kumar" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1253,59 +800,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/himeshsiriwardana" title="himeshsiriwardana" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/31583807?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="himeshsiriwardana" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/isala404" title="isala404" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/29277992?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="isala404" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/nishagii" title="nishagii" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/140165177?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="nishagii" />
-  </a>
-  <a href="https://github.com/sacrana0" title="sacrana0" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/183357006?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sacrana0" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/sacrana0" title="sacrana0" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/183357006?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sacrana0" />
-  </a>
-  <a href="https://github.com/isala404" title="isala404" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/29277992?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="isala404" />
-  </a>
-  <a href="https://github.com/nishagii" title="nishagii" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/140165177?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="nishagii" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1365,44 +864,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/himeshsiriwardana" title="himeshsiriwardana" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/31583807?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="himeshsiriwardana" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/LinukaAr" title="LinukaAr" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/89442011?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="LinukaAr" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/LinukaAr" title="LinukaAr" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/89442011?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="LinukaAr" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1464,38 +930,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/priyanshoon" title="priyanshoon" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62681950?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="priyanshoon" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/priyanshoon" title="priyanshoon" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62681950?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="priyanshoon" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1542,27 +981,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1619,30 +1037,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
 </div></div>
 
 #### 🚀 Features
@@ -1693,30 +1087,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1760,30 +1130,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1835,39 +1181,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/warnakulasuriya-fds-e23" title="warnakulasuriya-fds-e23" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/145958660?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="warnakulasuriya-fds-e23" />
-  </a>
-  <a href="https://github.com/sahandilshan" title="sahandilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32576163?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sahandilshan" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -1942,24 +1255,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
 </div></div>
 
 #### ✨ Improvements
@@ -1993,44 +1288,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThumulaPerera" title="ThumulaPerera" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42399179?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThumulaPerera" />
-  </a>
-  <a href="https://github.com/sahandilshan" title="sahandilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32576163?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sahandilshan" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/JeethJJ" title="JeethJJ" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/50905371?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JeethJJ" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -2085,47 +1347,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/warnakulasuriya-fds-e23" title="warnakulasuriya-fds-e23" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/145958660?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="warnakulasuriya-fds-e23" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/jeradrutnam" title="jeradrutnam" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/7569427?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="jeradrutnam" />
-  </a>
-  <a href="https://github.com/Thumimku" title="Thumimku" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25488962?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Thumimku" />
-  </a>
-  <a href="https://github.com/mevan-karu" title="mevan-karu" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25488487?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="mevan-karu" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/warnakulasuriya-fds-e23" title="warnakulasuriya-fds-e23" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/145958660?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="warnakulasuriya-fds-e23" />
-  </a>
-  <a href="https://github.com/Thumimku" title="Thumimku" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25488962?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Thumimku" />
-  </a>
-  <a href="https://github.com/mevan-karu" title="mevan-karu" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25488487?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="mevan-karu" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -2191,50 +1417,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/sahandilshan" title="sahandilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32576163?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sahandilshan" />
-  </a>
-  <a href="https://github.com/jeradrutnam" title="jeradrutnam" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/7569427?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="jeradrutnam" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/KaveeshaPiumini" title="KaveeshaPiumini" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62582918?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="KaveeshaPiumini" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -2324,53 +1511,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/DonOmalVindula" title="DonOmalVindula" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/42619922?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="DonOmalVindula" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/sahandilshan" title="sahandilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32576163?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sahandilshan" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
-  <a href="https://github.com/jeradrutnam" title="jeradrutnam" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/7569427?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="jeradrutnam" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
-  <a href="https://github.com/iff-sal" title="iff-sal" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/152188411?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="iff-sal" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/iff-sal" title="iff-sal" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/152188411?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="iff-sal" />
-  </a>
-  <a href="https://github.com/ayeshajay" title="ayeshajay" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/51480027?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ayeshajay" />
-  </a>
 </div></div>
 
 #### ⚠️ Breaking Changes
@@ -2435,44 +1580,11 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/brionmario" title="brionmario" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/25959096?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="brionmario" />
-  </a>
-  <a href="https://github.com/rajithacharith" title="rajithacharith" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32898873?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="rajithacharith" />
-  </a>
-  <a href="https://github.com/senthalan" title="senthalan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/11584828?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="senthalan" />
-  </a>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/drsamitha" title="drsamitha" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/49331487?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="drsamitha" />
-  </a>
-  <a href="https://github.com/sahandilshan" title="sahandilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/32576163?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="sahandilshan" />
-  </a>
-  <a href="https://github.com/malinthaprasan" title="malinthaprasan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1591316?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="malinthaprasan" />
-  </a>
 </div></div>
 
 <div style={{ padding: '15px', marginBottom: '40px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>New Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/malinthaprasan" title="malinthaprasan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1591316?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="malinthaprasan" />
-  </a>
-  <a href="https://github.com/drsamitha" title="drsamitha" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/49331487?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="drsamitha" />
-  </a>
 </div></div>
 
 
@@ -2487,15 +1599,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/hwupathum" title="hwupathum" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/46132469?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="hwupathum" />
-  </a>
 </div></div>
 
 
@@ -2510,21 +1613,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/JKAUSHALYA" title="JKAUSHALYA" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/8939174?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="JKAUSHALYA" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/Lakshan-Banneheke" title="Lakshan-Banneheke" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62496951?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Lakshan-Banneheke" />
-  </a>
 </div></div>
 
 
@@ -2539,24 +1627,6 @@ Explore the latest updates, features, and improvements to **ThunderID**.
 <div style={{ padding: '15px', marginBottom: '10px',}}>
 <span style={{ fontSize: '0.85rem', fontWeight: 'bold', display: 'block', marginBottom: '10px', color: '#555', textTransform: 'uppercase' }}>Contributors</span>
 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-  <a href="https://github.com/darshanasbg" title="darshanasbg" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/1617810?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="darshanasbg" />
-  </a>
-  <a href="https://github.com/ThaminduDilshan" title="ThaminduDilshan" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/35653110?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="ThaminduDilshan" />
-  </a>
-  <a href="https://github.com/Osara-B" title="Osara-B" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/124599924?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Osara-B" />
-  </a>
-  <a href="https://github.com/Lakshan-Banneheke" title="Lakshan-Banneheke" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/62496951?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="Lakshan-Banneheke" />
-  </a>
-  <a href="https://github.com/thiva-k" title="thiva-k" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/114133267?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="thiva-k" />
-  </a>
-  <a href="https://github.com/PasinduRavimal" title="PasinduRavimal" target="_blank" style={{ transition: 'transform 0.2s' }}>
-    <img src="https://avatars.githubusercontent.com/u/34201061?v=4" width="55" height="55" style={{ borderRadius: '50%', border: '2px solid #ff8c00', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }} alt="PasinduRavimal" />
-  </a>
 </div></div>
 
 

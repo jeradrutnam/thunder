@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "180aaded-93cc-4964-9009-5ecdeaaba798",
+      "id": "37a7cb37-8a46-470d-b08c-5d6f6dc2ec73",
       "name": "roles",
       "description": {
         "content": "Operations related to role management",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "2687babc-7771-4005-9afb-d85379f6b3a8",
+          "id": "37da25cd-1fbd-433e-a842-2885fa36a616",
           "name": "List roles",
           "request": {
             "name": "List roles",
@@ -67,7 +67,7 @@
           },
           "response": [
             {
-              "id": "87b5fc23-16a8-44c6-9f74-ad7ee840b4fb",
+              "id": "5bb621a0-cd89-4886-b554-0e930b5ed755",
               "name": "List of roles",
               "originalRequest": {
                 "url": {
@@ -138,7 +138,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "d67aa72e-cc6d-4592-9f1f-dfb4a7b7472b",
+              "id": "188d41f7-bc2c-4eb5-9d08-6b40328bc08a",
               "name": "Bad request",
               "originalRequest": {
                 "url": {
@@ -209,7 +209,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "fa2df1a3-5198-4834-9907-95834dbdc398",
+              "id": "c32b79cd-6ccd-45ee-a594-9acf5269ec69",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -286,7 +286,7 @@
           }
         },
         {
-          "id": "311c9336-ff4b-4bdf-b56c-47db9344af22",
+          "id": "e6b6bc22-9c67-4c34-b514-af20035a4159",
           "name": "Create a new role",
           "request": {
             "name": "Create a new role",
@@ -347,7 +347,7 @@
           },
           "response": [
             {
-              "id": "b8e90d9c-1ad1-46cc-9bd2-612aa1718f87",
+              "id": "e5ec461c-b33b-4417-adde-3d358e10ee34",
               "name": "Role created",
               "originalRequest": {
                 "url": {
@@ -417,7 +417,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "970944b8-4392-4e69-ac13-b2a7b70facfa",
+              "id": "97c0120c-8e79-4896-96c8-8d9946f62b4f",
               "name": "Bad request",
               "originalRequest": {
                 "url": {
@@ -487,7 +487,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "b9260956-88a9-44f1-b25a-ad0dc21b214d",
+              "id": "a6014e1b-c51f-473b-bd29-1ced0847d2b6",
               "name": "Conflict",
               "originalRequest": {
                 "url": {
@@ -557,7 +557,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "9b329d23-a714-4cbd-bd23-a1008c313d5e",
+              "id": "f761d70d-48c1-447f-9390-6c67088a7945",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -633,7 +633,7 @@
           }
         },
         {
-          "id": "0cf450d8-04d6-4aa5-a5ed-4d1a993e8aa2",
+          "id": "4eced0a5-3588-4f64-9fc2-594fc910f27c",
           "name": "Get role details",
           "request": {
             "name": "Get role details",
@@ -689,7 +689,7 @@
           },
           "response": [
             {
-              "id": "16220936-99cc-476b-9223-c13d93993619",
+              "id": "54ccafd8-f282-43e0-a5a5-ca4cb5428418",
               "name": "Role details",
               "originalRequest": {
                 "url": {
@@ -759,7 +759,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "0051fa65-536f-4e6e-a1dc-e8744f3793d8",
+              "id": "0da4d54e-0e32-4b29-9b8a-9c3533aebee9",
               "name": "Bad request",
               "originalRequest": {
                 "url": {
@@ -829,7 +829,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "fb8515f0-212f-437a-81d4-db1d0cb89244",
+              "id": "418f19d1-2028-460f-9885-7a0fcbf5b490",
               "name": "Role not found",
               "originalRequest": {
                 "url": {
@@ -899,7 +899,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "d8d8913e-572b-41f5-a2f0-2206cfda2ae9",
+              "id": "d1fe67b5-c6fa-4207-82f6-821b86de0321",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -975,7 +975,7 @@
           }
         },
         {
-          "id": "999a3027-a3f8-4052-8518-978ffe4e8195",
+          "id": "0a0c392e-4157-4ae1-b7c1-f00d6108ae81",
           "name": "Update role",
           "request": {
             "name": "Update role",
@@ -1044,7 +1044,7 @@
           },
           "response": [
             {
-              "id": "3df2cf5e-d36e-43e2-9aca-90441050c043",
+              "id": "b13a16df-1acb-42d3-b5c7-612921252716",
               "name": "Role updated",
               "originalRequest": {
                 "url": {
@@ -1122,7 +1122,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "6185e064-c5b5-43e9-8c9b-dfc7831f2b6e",
+              "id": "cd28d6e5-dcd6-40df-ab2c-b706df241305",
               "name": "Bad request",
               "originalRequest": {
                 "url": {
@@ -1200,7 +1200,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "4e2b0cb6-d171-430e-8b94-2ccc3e92352e",
+              "id": "9a32ef58-03fa-42fe-9d68-d84aac9905ce",
               "name": "Role not found",
               "originalRequest": {
                 "url": {
@@ -1278,7 +1278,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "282c391c-198e-4d01-a193-3547cf33df0a",
+              "id": "1fd35c44-6fb5-4474-93d2-b266886d66c4",
               "name": "Conflict",
               "originalRequest": {
                 "url": {
@@ -1356,7 +1356,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "fe6bd81c-af52-42b5-b6f9-77f0f02358f7",
+              "id": "a3af807f-c576-4666-a4c0-a88bb102c94f",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -1440,7 +1440,7 @@
           }
         },
         {
-          "id": "9d8a2433-f7b3-4b41-8119-f52d8ebb8386",
+          "id": "a147fbd1-db36-4fc3-9f3d-f99e0a6822b0",
           "name": "Delete a role by id",
           "request": {
             "name": "Delete a role by id",
@@ -1493,7 +1493,7 @@
           },
           "response": [
             {
-              "id": "37956c67-d5f7-4148-baa7-aefb2b6152de",
+              "id": "420604c8-2669-4972-afdd-f7583ca1e569",
               "name": "Role deleted",
               "originalRequest": {
                 "url": {
@@ -1559,7 +1559,7 @@
               "_postman_previewlanguage": "text"
             },
             {
-              "id": "4875c7b2-95cb-4b9c-a093-888af9693a0a",
+              "id": "a5f9e960-880f-4b3e-8498-d958d4ceb8c8",
               "name": "Bad request",
               "originalRequest": {
                 "url": {
@@ -1629,7 +1629,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "f525a41d-1b8c-41a8-a8af-8066a35f060a",
+              "id": "7f8cabf6-8f1e-4db5-a363-7e84e86cb180",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -1705,7 +1705,7 @@
           }
         },
         {
-          "id": "8ad54ffe-22c8-4a75-a417-40d65b1e0e75",
+          "id": "dcb7be3c-81e6-4924-8ad8-c9e072f03c03",
           "name": "Get role assignments",
           "request": {
             "name": "Get role assignments",
@@ -1787,7 +1787,7 @@
           },
           "response": [
             {
-              "id": "e2b8d485-8ea3-416c-8c69-d51b9deaec3b",
+              "id": "f83d5b47-95ff-4b0f-a43c-ed73fd699917",
               "name": "List of assignments",
               "originalRequest": {
                 "url": {
@@ -1875,7 +1875,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "5ffc00e3-a811-4788-927e-291c0761bce0",
+              "id": "ae8fa826-7f79-4cae-a35a-dc5a1c485a61",
               "name": "Bad request",
               "originalRequest": {
                 "url": {
@@ -1963,7 +1963,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "b9fa04df-40a5-4026-acc7-ce983b8e205a",
+              "id": "ac3c2298-b597-442a-8cdf-d9ad5de40981",
               "name": "Role not found",
               "originalRequest": {
                 "url": {
@@ -2051,7 +2051,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "4e6aba3c-282a-4a29-a2ce-babe337defc4",
+              "id": "7d99c92a-428d-4687-baff-d35bfee934d1",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -2145,7 +2145,7 @@
           }
         },
         {
-          "id": "5cadb616-9cd1-40dd-a458-bcdda5ece647",
+          "id": "2681d1fd-f165-4e79-a6a9-bf543b8dbce4",
           "name": "Add assignments to a role",
           "request": {
             "name": "Add assignments to a role",
@@ -2216,7 +2216,7 @@
           },
           "response": [
             {
-              "id": "43fc88ac-a7cf-44e7-80b4-695d9156d724",
+              "id": "ffcc0547-2995-4464-b8bf-297b16874968",
               "name": "Assignments added successfully",
               "originalRequest": {
                 "url": {
@@ -2292,7 +2292,7 @@
               "_postman_previewlanguage": "text"
             },
             {
-              "id": "e6c06b06-e80a-4d58-a6dc-daef2308c53d",
+              "id": "1bccc659-4bfe-43f4-9111-03c5278157d1",
               "name": "Bad request",
               "originalRequest": {
                 "url": {
@@ -2372,7 +2372,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "3f6ccc2b-24ae-4f1e-9aef-95a15e327f4f",
+              "id": "2301319d-995c-492d-8f0a-ab908beb7744",
               "name": "Role not found",
               "originalRequest": {
                 "url": {
@@ -2452,7 +2452,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "d52cdb51-9005-4362-8fa8-72a3c866c7c6",
+              "id": "f95c2ed6-c596-4a30-a85e-981039b48ed8",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -2538,7 +2538,7 @@
           }
         },
         {
-          "id": "331f70b3-54d0-4d76-aabf-8eb3abfa8b9c",
+          "id": "c20803fa-2b53-4311-acbe-29431783b130",
           "name": "Remove assignments from a role",
           "request": {
             "name": "Remove assignments from a role",
@@ -2609,7 +2609,7 @@
           },
           "response": [
             {
-              "id": "00e666f4-3b8c-42d4-99ce-e26eb8a8e695",
+              "id": "c5914c52-b04d-497e-aa27-0d37dadec12e",
               "name": "Assignments removed successfully",
               "originalRequest": {
                 "url": {
@@ -2685,7 +2685,7 @@
               "_postman_previewlanguage": "text"
             },
             {
-              "id": "4da9cf82-981e-45b2-ace3-d6b5f14212bd",
+              "id": "a0ec780b-1d16-4b37-9817-03c279f30358",
               "name": "Bad request",
               "originalRequest": {
                 "url": {
@@ -2765,7 +2765,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "d267740f-8f37-4800-8c49-0043d822acde",
+              "id": "dc94f448-3d99-4850-a94a-155bb0ae5ac1",
               "name": "Role not found",
               "originalRequest": {
                 "url": {
@@ -2845,7 +2845,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "2dd29510-ec64-4afc-96ed-b3936c21605e",
+              "id": "9bc2fc24-11aa-48fc-8c69-4b87d5c9b03c",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -2982,7 +2982,7 @@
     ]
   },
   "info": {
-    "_postman_id": "ad3fc552-e928-49c9-94cf-b1715c272df8",
+    "_postman_id": "1e48d500-6cd3-4013-a11d-5b0b87a9f0ea",
     "name": "Role Management API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

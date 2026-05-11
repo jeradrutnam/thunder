@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "a7cdc9aa-b1b4-4f35-9e0b-1f64a5b39320",
+      "id": "ed756fd0-643c-4355-9fc5-9e1b826d65e3",
       "name": "languages",
       "description": {
         "content": "List supported languages",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "254b659b-ca53-484a-90d1-065d4e03c10e",
+          "id": "75c675cf-ebbf-4d7c-9832-d89402492a2f",
           "name": "List all languages",
           "request": {
             "name": "List all languages",
@@ -58,7 +58,7 @@
           },
           "response": [
             {
-              "id": "f390476c-a8c1-4d31-b079-01c3ca6bd99e",
+              "id": "9a16490d-fa3c-47ce-a013-23d24355f7da",
               "name": "List of language tags retrieved successfully",
               "originalRequest": {
                 "url": {
@@ -121,7 +121,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "6ff1e437-1ad8-4ceb-ba1d-5aed926cbd0f",
+              "id": "e14adc6f-b82a-4f6f-bd57-751ba0f8ba38",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -193,7 +193,7 @@
       "event": []
     },
     {
-      "id": "499477ed-b41b-46b5-a0b6-5b0bb262e47a",
+      "id": "352576df-99be-4856-a79b-9e8d0d6f7d60",
       "name": "resolve",
       "description": {
         "content": "Resolve translations (runtime)",
@@ -201,7 +201,7 @@
       },
       "item": [
         {
-          "id": "ba975073-d317-4922-84ee-ed0f437848f8",
+          "id": "58b94b27-2e05-482f-a168-f665ee91997e",
           "name": "Resolve all translations for a language",
           "request": {
             "name": "Resolve all translations for a language",
@@ -267,7 +267,7 @@
           },
           "response": [
             {
-              "id": "57a7c808-751d-492c-9d66-f4eeea42dde0",
+              "id": "1360e248-83c8-4999-9205-bdfeff2a6ed6",
               "name": "Translations resolved successfully",
               "originalRequest": {
                 "url": {
@@ -340,12 +340,12 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"language\": \"<string>\",\n  \"translations\": {\n    \"consecteturd\": {\n      \"elit9a_\": \"<string>\"\n    },\n    \"et5b\": {\n      \"ex_8_\": \"<string>\",\n      \"voluptate_7\": \"<string>\",\n      \"magnac\": \"<string>\",\n      \"adipisicing2\": \"<string>\"\n    },\n    \"ex3e\": {\n      \"exercitation_ee\": \"<string>\"\n    },\n    \"Duis0c\": {\n      \"Ut_05a\": \"<string>\",\n      \"do_d8b\": \"<string>\"\n    }\n  },\n  \"totalResults\": \"<integer>\"\n}",
+              "body": "{\n  \"language\": \"<string>\",\n  \"translations\": {\n    \"consequat8e8\": {\n      \"deserunt35\": \"<string>\",\n      \"inf6_\": \"<string>\",\n      \"ipsum6e6\": \"<string>\",\n      \"magna_1\": \"<string>\"\n    },\n    \"ut46f\": {\n      \"dolore_1\": \"<string>\"\n    },\n    \"Duis704\": {\n      \"elitd68\": \"<string>\"\n    }\n  },\n  \"totalResults\": \"<integer>\"\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "d619ad8a-b6d1-48c2-a78a-0f77c7532a3f",
+              "id": "d216de69-a2dc-4824-9304-3dce703ad876",
               "name": "Bad request - Invalid input",
               "originalRequest": {
                 "url": {
@@ -423,7 +423,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "80218d0c-ae6e-4744-b74b-ee06f6cf33a5",
+              "id": "59d9f90e-05e6-49b8-a296-60a0e319e07a",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -507,7 +507,7 @@
           }
         },
         {
-          "id": "f193a05b-b5d2-461e-afb8-b37e4c8d95fe",
+          "id": "cd38b6d8-7077-44ec-9f4f-7d5f4d8bdb4a",
           "name": "Resolve a single translation",
           "request": {
             "name": "Resolve a single translation",
@@ -584,7 +584,7 @@
           },
           "response": [
             {
-              "id": "66294b04-db54-47fc-b9ae-5bd270624fd3",
+              "id": "bbe91183-a96b-4e70-9a18-9e516bf8894a",
               "name": "Translation resolved successfully",
               "originalRequest": {
                 "url": {
@@ -675,7 +675,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "8123816d-6a63-4491-a6bd-099a6253a266",
+              "id": "b5f02223-14e1-40d8-9994-fc0cc32f12eb",
               "name": "Bad request - Invalid input",
               "originalRequest": {
                 "url": {
@@ -766,7 +766,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "8d8a3bfc-66af-4428-9da8-1c5895e2884a",
+              "id": "83898969-256b-48a5-be12-be9757046566",
               "name": "Resource not found",
               "originalRequest": {
                 "url": {
@@ -857,7 +857,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "2d11bbcc-aaed-4e14-a548-8b0100e155f5",
+              "id": "3411507b-6953-409b-bf16-8b66ccb52602",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -957,7 +957,7 @@
       "event": []
     },
     {
-      "id": "a9c0f554-6071-4676-b025-694975e00ede",
+      "id": "85347b24-7711-40ae-9a30-37bf399c82fe",
       "name": "management",
       "description": {
         "content": "Manage translations (admin)",
@@ -965,7 +965,7 @@
       },
       "item": [
         {
-          "id": "4b114fbd-a866-4295-9ba7-a88f37db3ec8",
+          "id": "99b28536-aa52-4eb6-96f2-28a6d14fd318",
           "name": "Set translations for a language",
           "request": {
             "name": "Set translations for a language",
@@ -1026,7 +1026,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"translations\": {\n    \"occaecat_f1\": {\n      \"laboris_6_\": \"<string>\",\n      \"consectetur_87d\": \"<string>\"\n    },\n    \"pariatur87\": {\n      \"enim8\": \"<string>\",\n      \"officia4c\": \"<string>\"\n    },\n    \"minim02\": {\n      \"non_b08\": \"<string>\",\n      \"irure6\": \"<string>\"\n    }\n  }\n}",
+              "raw": "{\n  \"translations\": {\n    \"sit_49b\": {\n      \"commodo_c\": \"<string>\",\n      \"Lorem_8c\": \"<string>\",\n      \"ipsum66\": \"<string>\"\n    }\n  }\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1036,7 +1036,7 @@
           },
           "response": [
             {
-              "id": "8b83bd18-c602-4ea4-98a6-290437560521",
+              "id": "d19a3c11-0681-4da6-b607-62d7f81d5d65",
               "name": "Custom translations set successfully",
               "originalRequest": {
                 "url": {
@@ -1095,7 +1095,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"translations\": {\n    \"occaecat_f1\": {\n      \"laboris_6_\": \"<string>\",\n      \"consectetur_87d\": \"<string>\"\n    },\n    \"pariatur87\": {\n      \"enim8\": \"<string>\",\n      \"officia4c\": \"<string>\"\n    },\n    \"minim02\": {\n      \"non_b08\": \"<string>\",\n      \"irure6\": \"<string>\"\n    }\n  }\n}",
+                  "raw": "{\n  \"translations\": {\n    \"sit_49b\": {\n      \"commodo_c\": \"<string>\",\n      \"Lorem_8c\": \"<string>\",\n      \"ipsum66\": \"<string>\"\n    }\n  }\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1111,12 +1111,12 @@
                   "value": "application/json"
                 }
               ],
-              "body": "{\n  \"language\": \"<string>\",\n  \"translations\": {\n    \"consecteturd\": {\n      \"elit9a_\": \"<string>\"\n    },\n    \"et5b\": {\n      \"ex_8_\": \"<string>\",\n      \"voluptate_7\": \"<string>\",\n      \"magnac\": \"<string>\",\n      \"adipisicing2\": \"<string>\"\n    },\n    \"ex3e\": {\n      \"exercitation_ee\": \"<string>\"\n    },\n    \"Duis0c\": {\n      \"Ut_05a\": \"<string>\",\n      \"do_d8b\": \"<string>\"\n    }\n  },\n  \"totalResults\": \"<integer>\"\n}",
+              "body": "{\n  \"language\": \"<string>\",\n  \"translations\": {\n    \"consequat8e8\": {\n      \"deserunt35\": \"<string>\",\n      \"inf6_\": \"<string>\",\n      \"ipsum6e6\": \"<string>\",\n      \"magna_1\": \"<string>\"\n    },\n    \"ut46f\": {\n      \"dolore_1\": \"<string>\"\n    },\n    \"Duis704\": {\n      \"elitd68\": \"<string>\"\n    }\n  },\n  \"totalResults\": \"<integer>\"\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "f02a5362-429b-4dcf-896e-7cd948ea6b89",
+              "id": "2bd86d25-50b9-4e5f-ac97-990a8e7d088d",
               "name": "Bad request - Invalid input",
               "originalRequest": {
                 "url": {
@@ -1175,7 +1175,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"translations\": {\n    \"occaecat_f1\": {\n      \"laboris_6_\": \"<string>\",\n      \"consectetur_87d\": \"<string>\"\n    },\n    \"pariatur87\": {\n      \"enim8\": \"<string>\",\n      \"officia4c\": \"<string>\"\n    },\n    \"minim02\": {\n      \"non_b08\": \"<string>\",\n      \"irure6\": \"<string>\"\n    }\n  }\n}",
+                  "raw": "{\n  \"translations\": {\n    \"sit_49b\": {\n      \"commodo_c\": \"<string>\",\n      \"Lorem_8c\": \"<string>\",\n      \"ipsum66\": \"<string>\"\n    }\n  }\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1196,8 +1196,8 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "4128fb10-adbf-4b70-ae40-822fa4777ba1",
-              "name": "Authentication required",
+              "id": "22462bc5-3ffe-461c-bc00-728aaf3bfa56",
+              "name": "Unauthorized - missing or invalid authentication token",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1255,7 +1255,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"translations\": {\n    \"occaecat_f1\": {\n      \"laboris_6_\": \"<string>\",\n      \"consectetur_87d\": \"<string>\"\n    },\n    \"pariatur87\": {\n      \"enim8\": \"<string>\",\n      \"officia4c\": \"<string>\"\n    },\n    \"minim02\": {\n      \"non_b08\": \"<string>\",\n      \"irure6\": \"<string>\"\n    }\n  }\n}",
+                  "raw": "{\n  \"translations\": {\n    \"sit_49b\": {\n      \"commodo_c\": \"<string>\",\n      \"Lorem_8c\": \"<string>\",\n      \"ipsum66\": \"<string>\"\n    }\n  }\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1276,8 +1276,8 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "47ca4693-040f-4385-b57f-c9e94444d6b8",
-              "name": "Insufficient permissions",
+              "id": "ab17cf45-260b-4465-9ccb-8626aa872a1a",
+              "name": "Forbidden - insufficient permissions to perform this operation",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1335,7 +1335,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"translations\": {\n    \"occaecat_f1\": {\n      \"laboris_6_\": \"<string>\",\n      \"consectetur_87d\": \"<string>\"\n    },\n    \"pariatur87\": {\n      \"enim8\": \"<string>\",\n      \"officia4c\": \"<string>\"\n    },\n    \"minim02\": {\n      \"non_b08\": \"<string>\",\n      \"irure6\": \"<string>\"\n    }\n  }\n}",
+                  "raw": "{\n  \"translations\": {\n    \"sit_49b\": {\n      \"commodo_c\": \"<string>\",\n      \"Lorem_8c\": \"<string>\",\n      \"ipsum66\": \"<string>\"\n    }\n  }\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1356,7 +1356,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "320a8790-5595-4bd0-bf7a-b0d5545047bb",
+              "id": "f5b5a9c4-fb96-4721-a031-46fb2095924e",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -1415,7 +1415,7 @@
                 "method": "POST",
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"translations\": {\n    \"occaecat_f1\": {\n      \"laboris_6_\": \"<string>\",\n      \"consectetur_87d\": \"<string>\"\n    },\n    \"pariatur87\": {\n      \"enim8\": \"<string>\",\n      \"officia4c\": \"<string>\"\n    },\n    \"minim02\": {\n      \"non_b08\": \"<string>\",\n      \"irure6\": \"<string>\"\n    }\n  }\n}",
+                  "raw": "{\n  \"translations\": {\n    \"sit_49b\": {\n      \"commodo_c\": \"<string>\",\n      \"Lorem_8c\": \"<string>\",\n      \"ipsum66\": \"<string>\"\n    }\n  }\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -1442,7 +1442,7 @@
           }
         },
         {
-          "id": "f33727e1-4a8a-4a15-ad78-88b4d8eabfc6",
+          "id": "abafcdb3-dcd8-4450-a119-0182617e01fd",
           "name": "Clear all translations for a language",
           "request": {
             "name": "Clear all translations for a language",
@@ -1500,7 +1500,7 @@
           },
           "response": [
             {
-              "id": "1c399507-c01d-46bf-b497-58c1c08a850a",
+              "id": "4a9770ec-e266-4f2b-b573-c766daa65ff3",
               "name": "Translations reset to default successfully",
               "originalRequest": {
                 "url": {
@@ -1568,7 +1568,7 @@
               "_postman_previewlanguage": "text"
             },
             {
-              "id": "c3cd9747-69da-426a-b970-ede1a6a6ab71",
+              "id": "e1c6bcd1-e563-4ad5-937c-069fb501016d",
               "name": "Bad request - Invalid input",
               "originalRequest": {
                 "url": {
@@ -1640,8 +1640,8 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "7026a596-6860-4363-8add-f44b0e15434b",
-              "name": "Authentication required",
+              "id": "29b6dd01-4985-4cee-a08e-4332d21e9898",
+              "name": "Unauthorized - missing or invalid authentication token",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1712,8 +1712,8 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "a267aa59-98dd-448b-a139-562ca039b22a",
-              "name": "Insufficient permissions",
+              "id": "b95c49b6-7b22-477f-90b9-7da9362fb0b5",
+              "name": "Forbidden - insufficient permissions to perform this operation",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -1784,7 +1784,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "5e32b306-b017-4200-b9a5-f92b6273bc2a",
+              "id": "9d19cb36-7be6-448d-aa11-1593daa98405",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -1862,7 +1862,7 @@
           }
         },
         {
-          "id": "8117738b-d6e7-46ff-aa27-87ebb1ed4cda",
+          "id": "7338032b-08dd-4cd1-9a72-a96a9e4a0752",
           "name": "Set a single translation",
           "request": {
             "name": "Set a single translation",
@@ -1951,7 +1951,7 @@
           },
           "response": [
             {
-              "id": "0b2eaa0e-109e-40aa-b8d7-b9e88f35f4bc",
+              "id": "5ec7fe50-af59-4f21-818f-0146b2208746",
               "name": "Translation set successfully",
               "originalRequest": {
                 "url": {
@@ -2049,7 +2049,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "df2c8857-1c46-4dbe-9bff-d4516e75d9e6",
+              "id": "27c6dd93-c3a4-4700-983a-5e96f741b59c",
               "name": "Bad request - Invalid input",
               "originalRequest": {
                 "url": {
@@ -2147,8 +2147,8 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "f3e7ea89-5cb8-4229-b863-6c0ec989092e",
-              "name": "Authentication required",
+              "id": "1ba34f3b-d626-49af-a1e1-936f5af468f7",
+              "name": "Unauthorized - missing or invalid authentication token",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2245,8 +2245,8 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "2af86717-a491-4869-aa3e-66da3b8bce57",
-              "name": "Insufficient permissions",
+              "id": "13510275-16e4-45ae-a927-3b6048f2d4c6",
+              "name": "Forbidden - insufficient permissions to perform this operation",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2343,7 +2343,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "286a218d-f9a2-456d-977f-792c72262dbb",
+              "id": "a26d528d-4145-4471-b9f5-69e346c6380a",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -2447,7 +2447,7 @@
           }
         },
         {
-          "id": "952970be-7632-4a05-82be-7f3137a0ac69",
+          "id": "66dd160c-b714-4b67-99cd-37206ca64ad9",
           "name": "Clear a single translation",
           "request": {
             "name": "Clear a single translation",
@@ -2523,7 +2523,7 @@
           },
           "response": [
             {
-              "id": "2d6fdb6d-035d-42d2-a554-223ab7e807dd",
+              "id": "aa47af0e-18b3-432b-9aaf-31799d6f4d6f",
               "name": "Translations reset to default successfully",
               "originalRequest": {
                 "url": {
@@ -2609,7 +2609,7 @@
               "_postman_previewlanguage": "text"
             },
             {
-              "id": "ea60dc3d-91e1-4637-b17d-0d0280236b4b",
+              "id": "81f98baf-641a-422c-a19c-8ae59eb2ddd5",
               "name": "Bad request - Invalid input",
               "originalRequest": {
                 "url": {
@@ -2699,8 +2699,8 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "b75da969-77a2-48f5-a6dc-564e39066a4b",
-              "name": "Authentication required",
+              "id": "c35120c8-83bd-468f-a331-63aa7360a6c1",
+              "name": "Unauthorized - missing or invalid authentication token",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2789,8 +2789,8 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "3b1549c4-8c6e-4c73-9802-f4d6ccb4b80e",
-              "name": "Insufficient permissions",
+              "id": "99099b08-07c1-4cbf-a003-0d9f0872455c",
+              "name": "Forbidden - insufficient permissions to perform this operation",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -2879,7 +2879,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "4fc665f4-9326-4d60-bdd5-6134d9f90686",
+              "id": "c93fb5c5-f844-4c19-bd87-67141eb5e1cb",
               "name": "Resource not found",
               "originalRequest": {
                 "url": {
@@ -2969,7 +2969,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "043dc839-ad10-400c-98ea-517c038e8559",
+              "id": "e94793c7-d029-4d25-aa9c-1fd6006d3558",
               "name": "Internal server error",
               "originalRequest": {
                 "url": {
@@ -3116,7 +3116,7 @@
     ]
   },
   "info": {
-    "_postman_id": "579173dd-40a2-4ac6-8431-ec9665c7d9fa",
+    "_postman_id": "e1517fbd-22ed-4dd5-8659-b5ade0c91192",
     "name": "Internationalization (i18n) API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

@@ -1,15 +1,15 @@
 {
   "item": [
     {
-      "id": "92e7bacb-6b75-4ae4-8419-dead4f13ef3d",
+      "id": "e1744454-51a7-4dd9-aaf7-2eabb5913aa5",
       "name": "Passkey / WebAuthn / FIDO2 Registration",
       "description": {
-        "content": "",
+        "content": "Passkey registration start and finish operations.",
         "type": "text/plain"
       },
       "item": [
         {
-          "id": "2bbfef65-bd4d-4a73-be04-b67a24efac94",
+          "id": "98e4723b-d820-4dd5-b66b-8136b414f9b3",
           "name": "Start Passkey credential registration",
           "request": {
             "name": "Start Passkey credential registration",
@@ -72,7 +72,7 @@
           },
           "response": [
             {
-              "id": "04f5197f-d819-4c5e-84ba-fd756d324885",
+              "id": "8ee6f547-9f87-4cd5-88d9-6c21f7b93655",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -136,7 +136,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "5e98d3d2-2f4c-4253-a3ca-1721a2a1c45c",
+              "id": "ea32df13-0585-40bf-80ac-6ce44a1798cc",
               "name": "Bad Request: The request body is malformed or contains invalid data",
               "originalRequest": {
                 "url": {
@@ -195,12 +195,12 @@
                   "value": "application/json"
                 }
               ],
-              "body": "\"<object>\"",
+              "body": "{\n  \"code\": \"<string>\",\n  \"message\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  },\n  \"description\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  }\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "319e02ed-4ce9-4024-b795-b98d5076b227",
+              "id": "8783cc82-7841-4eff-9c12-f3b4cca94ff9",
               "name": "Not Found: The user could not be found",
               "originalRequest": {
                 "url": {
@@ -259,12 +259,12 @@
                   "value": "application/json"
                 }
               ],
-              "body": "\"<object>\"",
+              "body": "{\n  \"code\": \"<string>\",\n  \"message\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  },\n  \"description\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  }\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "88fe2496-cc70-4ac1-ac51-e8723189e88c",
+              "id": "ba3a55a6-34db-48ce-a6dc-f8053bf8a285",
               "name": "Internal Server Error: An unexpected error occurred while processing the request",
               "originalRequest": {
                 "url": {
@@ -323,7 +323,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "\"<object>\"",
+              "body": "{\n  \"code\": \"<string>\",\n  \"message\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  },\n  \"description\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  }\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             }
@@ -334,7 +334,7 @@
           }
         },
         {
-          "id": "3cd311b1-02da-440a-9924-026fb5a93014",
+          "id": "157b68c1-8bde-43cb-a939-9e36b7b4340f",
           "name": "Finish Passkey credential registration",
           "request": {
             "name": "Finish Passkey credential registration",
@@ -397,7 +397,7 @@
           },
           "response": [
             {
-              "id": "5484b5e1-757d-4a1c-b6be-0704dba6e2d4",
+              "id": "f2a506c0-00c8-4d06-a35a-e067c5979c27",
               "name": "OK",
               "originalRequest": {
                 "url": {
@@ -461,7 +461,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "b4a6275e-8cbd-4dd0-82a9-6cca273bffb4",
+              "id": "00804b82-256d-46b3-a71f-0b3f38f27cd2",
               "name": "Bad Request: The request body is malformed or contains invalid data",
               "originalRequest": {
                 "url": {
@@ -520,12 +520,12 @@
                   "value": "application/json"
                 }
               ],
-              "body": "\"<object>\"",
+              "body": "{\n  \"code\": \"<string>\",\n  \"message\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  },\n  \"description\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  }\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "4b2dd300-2258-44dc-a069-371ffad1cc27",
+              "id": "9db59c4b-0745-4f5d-8e74-bfc5005610b9",
               "name": "Unauthorized: Passkey registration verification failed",
               "originalRequest": {
                 "url": {
@@ -584,12 +584,12 @@
                   "value": "application/json"
                 }
               ],
-              "body": "\"<object>\"",
+              "body": "{\n  \"code\": \"<string>\",\n  \"message\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  },\n  \"description\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  }\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "85dc7571-74f3-4672-8f16-302504d9575c",
+              "id": "dbdd0df1-4d17-4b04-8276-c5706f328461",
               "name": "Not Found: The user could not be found",
               "originalRequest": {
                 "url": {
@@ -648,12 +648,12 @@
                   "value": "application/json"
                 }
               ],
-              "body": "\"<object>\"",
+              "body": "{\n  \"code\": \"<string>\",\n  \"message\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  },\n  \"description\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  }\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "4af354b3-e762-4ca0-aa6c-561ecce9689b",
+              "id": "b3c6b300-826b-4d03-9585-37928008d16c",
               "name": "Internal Server Error: An unexpected error occurred while processing the request",
               "originalRequest": {
                 "url": {
@@ -712,7 +712,7 @@
                   "value": "application/json"
                 }
               ],
-              "body": "\"<object>\"",
+              "body": "{\n  \"code\": \"<string>\",\n  \"message\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  },\n  \"description\": {\n    \"key\": \"<string>\",\n    \"defaultValue\": \"<string>\"\n  }\n}",
               "cookie": [],
               "_postman_previewlanguage": "json"
             }
@@ -753,7 +753,7 @@
     }
   ],
   "info": {
-    "_postman_id": "da46357b-01d0-42f0-8ff3-86efa852e381",
+    "_postman_id": "e3e67122-7077-47f4-bc57-c35f6ed6b087",
     "name": "Registration API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {

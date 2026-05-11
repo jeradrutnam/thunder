@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "083876b4-2d17-45de-826c-d8a5ca31e19c",
+      "id": "aa742f3d-e624-4ca5-aa9e-1957bb305503",
       "name": "health",
       "description": {
         "content": "Health check operations",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "d2c0d5c1-136f-4ace-99ea-ad2420b6e0ac",
+          "id": "f8f09f3e-be3b-486c-9087-f727fdec87cc",
           "name": "Liveness Check",
           "request": {
             "name": "Liveness Check",
@@ -44,13 +44,19 @@
                 }
               ]
             },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
             "method": "GET",
             "auth": null
           },
           "response": [
             {
-              "id": "a2938210-93d3-4155-ba4e-48b208f0626e",
-              "name": "OK",
+              "id": "ac51df41-6e11-4258-bb1a-ab41022d57f4",
+              "name": "Service is alive",
               "originalRequest": {
                 "url": {
                   "path": [
@@ -82,6 +88,12 @@
                     }
                   ]
                 },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
                 "method": "GET",
                 "body": {}
               },
@@ -90,15 +102,15 @@
               "header": [
                 {
                   "key": "Content-Type",
-                  "value": "text/plain"
+                  "value": "application/json"
                 }
               ],
-              "body": "",
+              "body": "{\n  \"status\": \"<string>\",\n  \"serviceStatus\": [\n    {\n      \"serviceName\": \"<string>\",\n      \"status\": \"<string>\"\n    },\n    {\n      \"serviceName\": \"<string>\",\n      \"status\": \"<string>\"\n    }\n  ]\n}",
               "cookie": [],
-              "_postman_previewlanguage": "text"
+              "_postman_previewlanguage": "json"
             },
             {
-              "id": "92ede044-0185-47da-82d9-958adedd9906",
+              "id": "b840d2e2-83aa-4313-8935-5e580980b9b8",
               "name": "Service Unavailable",
               "originalRequest": {
                 "url": {
@@ -131,6 +143,12 @@
                     }
                   ]
                 },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
                 "method": "GET",
                 "body": {}
               },
@@ -139,12 +157,12 @@
               "header": [
                 {
                   "key": "Content-Type",
-                  "value": "text/plain"
+                  "value": "application/json"
                 }
               ],
-              "body": "",
+              "body": "{\n  \"status\": \"<string>\",\n  \"serviceStatus\": [\n    {\n      \"serviceName\": \"<string>\",\n      \"status\": \"<string>\"\n    },\n    {\n      \"serviceName\": \"<string>\",\n      \"status\": \"<string>\"\n    }\n  ]\n}",
               "cookie": [],
-              "_postman_previewlanguage": "text"
+              "_postman_previewlanguage": "json"
             }
           ],
           "event": [],
@@ -153,7 +171,7 @@
           }
         },
         {
-          "id": "ece65746-815d-49f8-8836-ba26bc20fc62",
+          "id": "2046f70e-bc69-4543-943f-77481fd3d046",
           "name": "Readiness check",
           "request": {
             "name": "Readiness check",
@@ -202,7 +220,7 @@
           },
           "response": [
             {
-              "id": "846bf40d-5d5e-4ab7-b580-63dbabbadf26",
+              "id": "884f4dfb-526a-446d-b804-bed42ba148c2",
               "name": "Service is ready",
               "originalRequest": {
                 "url": {
@@ -257,7 +275,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "fb279771-08e2-4693-898b-3e65f8715827",
+              "id": "d8b943c2-3e99-43e1-b2d4-f943e375fddc",
               "name": "Service is not ready",
               "originalRequest": {
                 "url": {
@@ -348,7 +366,7 @@
     }
   ],
   "info": {
-    "_postman_id": "9cb7124a-6a22-4450-8ebd-0571211ddae4",
+    "_postman_id": "e79e53ab-e4fc-4d91-bc37-faa30e2ed61d",
     "name": "Health Check API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
