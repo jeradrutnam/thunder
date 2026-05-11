@@ -22,6 +22,7 @@
   ],
   "scripts": {
     "build": "pnpm setup && docusaurus build",
+    "clean": "docusaurus clear",
     "clear": "docusaurus clear",
     "deploy": "docusaurus deploy",
     "dev": "pnpm setup && docusaurus start --port 5180",
