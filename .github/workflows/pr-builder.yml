@@ -216,18 +216,15 @@ jobs:
 
       - name: 🧩 Install Dependencies & Build Frontend
         run: |
-          cd frontend
           pnpm install --frozen-lockfile
           pnpm build
 
       - name: 🔍 Run Frontend Linter
         run: |
-          cd frontend
           pnpm nx affected --target=lint --parallel=3 --base=${{ steps.set-shas.outputs.base }} --head=${{ steps.set-shas.outputs.head }}
 
       - name: 🎨 Check Frontend Formatting
         run: |
-          cd frontend
           pnpm format:check
 
   build:
@@ -275,7 +272,6 @@ jobs:
 
       - name: 📦 Install Frontend Dependencies
         run: |
-          cd frontend
           pnpm install --frozen-lockfile
 
       - name: 🧹 Clean Previous Builds
@@ -285,7 +281,6 @@ jobs:
 
       - name: 🔨 Build Frontend
         run: |
-          cd frontend
           pnpm build
 
       - name: 🔨 Build Product with Coverage
@@ -350,12 +345,10 @@ jobs:
 
       - name: 📦 Install Frontend Dependencies
         run: |
-          cd frontend
           pnpm install --frozen-lockfile
 
       - name: 🔨 Build Frontend Packages
         run: |
-          cd frontend
           pnpm build:packages
 
       - name: 🧪 Run Console Tests with Coverage
@@ -369,6 +362,14 @@ jobs:
           cd frontend/apps/gate
           pnpm test:coverage
 
+      # TODO: Enable package tests in CI once the broken tests are fixed
+
+      # - name: 🧪 Run Packages Tests with Coverage
+      #   if: matrix.shard == 1
+      #   run: |
+      #     cd frontend/packages
+      #     pnpm test:coverage
+
       # Strip branch data (BRDA/BRF/BRH) from frontend LCOV reports before uploading.
       # React Compiler (babel-plugin-react-compiler) generates phantom branch points in compiled
       # output that inflate the partial-line count in Codecov's coverage calculation.
@@ -376,7 +377,7 @@ jobs:
       # Line and function coverage remain unaffected and accurately reflect test quality.
       - name: 🧹 Strip branch data from frontend LCOV reports
         run: |
-          for lcov_file in frontend/apps/console/coverage/lcov.info frontend/apps/gate/coverage/lcov.info; do
+          for lcov_file in frontend/apps/console/coverage/lcov.info frontend/packages/coverage/lcov.info; do
             if [ -f "$lcov_file" ]; then
               sed -i '/^BRDA:/d;/^BRF:/d;/^BRH:/d' "$lcov_file"
             fi

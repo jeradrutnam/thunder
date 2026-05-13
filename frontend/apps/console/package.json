@@ -24,8 +24,8 @@
   "scripts": {
     "build": "tsc -b && vite build",
     "dev": "vite",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "NODE_OPTIONS='--max-old-space-size=8192' eslint .",
+    "lint:fix": "NODE_OPTIONS='--max-old-space-size=8192' eslint . --fix",
     "preview": "vite preview",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
